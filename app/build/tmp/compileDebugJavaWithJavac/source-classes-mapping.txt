@@ -1,2 +1,22 @@
+com/trytest/foodorder/databinding/ActivitySplashBinding.java
+ com.trytest.foodorder.databinding.ActivitySplashBinding
+com/trytest/foodorder/databinding/MenuListRowBinding.java
+ com.trytest.foodorder.databinding.MenuListRowBinding
+com/trytest/foodorder/databinding/ActivitySignInBinding.java
+ com.trytest.foodorder.databinding.ActivitySignInBinding
+com/trytest/foodorder/databinding/ActivitySuccessOrderBinding.java
+ com.trytest.foodorder.databinding.ActivitySuccessOrderBinding
+com/trytest/foodorder/databinding/RecyclerRestautantListRowBinding.java
+ com.trytest.foodorder.databinding.RecyclerRestautantListRowBinding
+com/trytest/foodorder/databinding/ActivityRestaurantMenuBinding.java
+ com.trytest.foodorder.databinding.ActivityRestaurantMenuBinding
+com/trytest/foodorder/databinding/ActivityMainBinding.java
+ com.trytest.foodorder.databinding.ActivityMainBinding
+com/trytest/foodorder/databinding/ActivityCreateAccountBinding.java
+ com.trytest.foodorder.databinding.ActivityCreateAccountBinding
 com/trytest/foodorder/BuildConfig.java
  com.trytest.foodorder.BuildConfig
+com/trytest/foodorder/databinding/PlaceyourorderListRowBinding.java
+ com.trytest.foodorder.databinding.PlaceyourorderListRowBinding
+com/trytest/foodorder/databinding/ActivityPlaceYourOrderBinding.java
+ com.trytest.foodorder.databinding.ActivityPlaceYourOrderBinding

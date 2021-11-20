@@ -6,74 +6,248 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml
+8-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml
+9-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:5:5-67
-11-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:5:22-64
-12
-13    <application
-13-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:7:5-35:19
-14        android:allowBackup="true"
-14-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:8:9-35
-15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.6.0] C:\Users\vantr\.gradle\caches\transforms-3\032c58922bb38a99adf98a8b0941b4fc\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
-16        android:debuggable="true"
-17        android:extractNativeLibs="false"
-18        android:icon="@mipmap/ic_launcher"
-18-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:9:9-43
-19        android:label="@string/app_name"
-19-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:10:9-41
-20        android:roundIcon="@mipmap/ic_launcher_round"
-20-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:11:9-54
-21        android:supportsRtl="true"
-21-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:12:9-35
-22        android:testOnly="true"
-23        android:theme="@style/Theme.FoodOrderAndDeliveryAppKotlin" >
-23-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:13:9-67
-24        <activity
-24-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:14:9-16:39
-25            android:name="com.trytest.foodorder.SuccessOrderActivity"
-25-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:15:13-70
-26            android:exported="true" />
-26-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:16:13-36
-27        <activity
-27-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:17:9-19:39
-28            android:name="com.trytest.foodorder.PlaceYourOrderActivity"
-28-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:18:13-72
-29            android:exported="true" />
-29-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:19:13-36
-30        <activity
-30-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:20:9-22:39
-31            android:name="com.trytest.foodorder.RestaurantMenuActivity"
-31-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:21:13-72
-32            android:exported="true" />
-32-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:22:13-36
-33        <activity
-33-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:23:9-31:20
-34            android:name="com.trytest.foodorder.SplashActivity"
-34-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:24:13-64
-35            android:exported="true" >
-35-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:25:13-36
-36            <intent-filter>
-36-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:26:13-30:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:27:17-69
-37-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:27:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:29:17-77
-39-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:29:27-74
-40            </intent-filter>
-41        </activity>
-42        <activity
-42-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:32:9-34:39
-43            android:name="com.trytest.foodorder.MainActivity"
-43-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:33:13-62
-44            android:exported="true" />
-44-->D:\workspace\FoodApp\app\src\main\AndroidManifest.xml:34:13-36
-45    </application>
-46
-47</manifest>
+11-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+13
+14    <application
+14-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:7:5-47:19
+15        android:allowBackup="true"
+15-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.6.0] C:\Users\vantr\.gradle\caches\transforms-3\9a8fc1ddab0302bf929e2458f543bd30\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:9:9-43
+20        android:label="@string/app_name"
+20-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:10:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:11:9-54
+22        android:supportsRtl="true"
+22-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:12:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.FoodOrderAndDeliveryAppKotlin" >
+24-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:13:9-67
+25        <activity
+25-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:14:9-16:40
+26            android:name="com.trytest.foodorder.CreateAccountActivity"
+26-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:15:13-50
+27            android:exported="false" />
+27-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:16:13-37
+28        <activity
+28-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:17:9-25:20
+29            android:name="com.trytest.foodorder.SignInActivity"
+29-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:18:13-43
+30            android:exported="true" >
+30-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:19:13-36
+31            <intent-filter>
+31-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:20:13-24:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:21:17-69
+32-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:21:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:23:17-77
+34-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:23:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:26:9-28:39
+38            android:name="com.trytest.foodorder.SuccessOrderActivity"
+38-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:27:13-49
+39            android:exported="true" />
+39-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:28:13-36
+40        <activity
+40-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:29:9-31:39
+41            android:name="com.trytest.foodorder.PlaceYourOrderActivity"
+41-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:30:13-51
+42            android:exported="true" />
+42-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:31:13-36
+43        <activity
+43-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:32:9-34:39
+44            android:name="com.trytest.foodorder.RestaurantMenuActivity"
+44-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:33:13-51
+45            android:exported="true" />
+45-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:34:13-36
+46        <activity
+46-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:35:9-43:20
+47            android:name="com.trytest.foodorder.SplashActivity"
+47-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:36:13-43
+48            android:exported="true" >
+48-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:37:13-36
+49            <intent-filter>
+49-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:20:13-24:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:21:17-69
+50-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:21:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:23:17-77
+52-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:23:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:44:9-46:39
+56            android:name="com.trytest.foodorder.MainActivity"
+56-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:45:13-41
+57            android:exported="true" />
+57-->D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:46:13-36
+58
+59        <service
+59-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:8:9-14:19
+60            android:name="com.google.firebase.components.ComponentDiscoveryService"
+60-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:9:13-84
+61            android:directBootAware="true"
+61-->[com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+62            android:exported="false" >
+62-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:10:13-37
+63            <meta-data
+63-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:11:13-13:85
+64                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+64-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:12:17-116
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:13:17-82
+66            <meta-data
+66-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+67                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+67-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+69            <meta-data
+69-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:15:13-17:85
+70                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+70-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:16:17-113
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:17:17-82
+72        </service>
+73
+74        <activity
+74-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+75            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+75-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+76            android:excludeFromRecents="true"
+76-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+77            android:exported="true"
+77-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+78            android:launchMode="singleTask"
+78-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+79-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+80            <intent-filter>
+80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+85
+86                <data
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+87                    android:host="firebase.auth"
+87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+88                    android:path="/"
+88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+89                    android:scheme="genericidp" />
+89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+90            </intent-filter>
+91        </activity>
+92        <activity
+92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+93            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+93-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+94            android:excludeFromRecents="true"
+94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+95            android:exported="true"
+95-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+96            android:launchMode="singleTask"
+96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+98            <intent-filter>
+98-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+99                <action android:name="android.intent.action.VIEW" />
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+100
+101                <category android:name="android.intent.category.DEFAULT" />
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+102                <category android:name="android.intent.category.BROWSABLE" />
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+103
+104                <data
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+105                    android:host="firebase.auth"
+105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+106                    android:path="/"
+106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+107                    android:scheme="recaptcha" />
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+108            </intent-filter>
+109        </activity>
+110
+111        <service
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+112            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+113            android:enabled="true"
+113-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+114            android:exported="false" >
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+115            <intent-filter>
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+116                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+117
+118                <category android:name="android.intent.category.DEFAULT" />
+118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+119            </intent-filter>
+120        </service>
+121
+122        <activity
+122-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+123            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+123-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+124            android:exported="false"
+124-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+125            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+125-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+126
+127        <provider
+127-->[com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+128            android:name="com.google.firebase.provider.FirebaseInitProvider"
+128-->[com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+129            android:authorities="com.trytest.foodorder.firebaseinitprovider"
+129-->[com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+130            android:directBootAware="true"
+130-->[com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+131            android:exported="false"
+131-->[com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+132            android:initOrder="100" />
+132-->[com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+133
+134        <meta-data
+134-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+135            android:name="com.google.android.gms.version"
+135-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+136            android:value="@integer/google_play_services_version" />
+136-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+137    </application>
+138
+139</manifest>

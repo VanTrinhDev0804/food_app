@@ -8,8 +8,6 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.ActionBar
 import androidx.recyclerview.widget.GridLayoutManager
-import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.FirebaseDatabase
 import com.trytest.foodorder.adapter.MenuListAdapter
 import com.trytest.foodorder.models.Menus
 import com.trytest.foodorder.models.RestaurentModel

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\New folder\\FoodApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\placeyourorder_list_row.xml",
+        "source": "D:\\New folder\\FoodApp\\app\\src\\main\\res\\layout\\placeyourorder_list_row.xml"
+    },
+    {
+        "merged": "D:\\New folder\\FoodApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_restaurant_menu.xml",
+        "source": "D:\\New folder\\FoodApp\\app\\src\\main\\res\\layout\\activity_restaurant_menu.xml"
+    },
+    {
+        "merged": "D:\\New folder\\FoodApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recycler_restautant_list_row.xml",
+        "source": "D:\\New folder\\FoodApp\\app\\src\\main\\res\\layout\\recycler_restautant_list_row.xml"
+    },
+    {
+        "merged": "D:\\New folder\\FoodApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
+        "source": "D:\\New folder\\FoodApp\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\New folder\\FoodApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\New folder\\FoodApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\New folder\\FoodApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_in.xml",
+        "source": "D:\\New folder\\FoodApp\\app\\src\\main\\res\\layout\\activity_sign_in.xml"
+    },
+    {
+        "merged": "D:\\New folder\\FoodApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_create_account.xml",
+        "source": "D:\\New folder\\FoodApp\\app\\src\\main\\res\\layout\\activity_create_account.xml"
+    },
+    {
+        "merged": "D:\\New folder\\FoodApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_success_order.xml",
+        "source": "D:\\New folder\\FoodApp\\app\\src\\main\\res\\layout\\activity_success_order.xml"
+    },
+    {
+        "merged": "D:\\New folder\\FoodApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_place_your_order.xml",
+        "source": "D:\\New folder\\FoodApp\\app\\src\\main\\res\\layout\\activity_place_your_order.xml"
+    },
+    {
+        "merged": "D:\\New folder\\FoodApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\menu_list_row.xml",
+        "source": "D:\\New folder\\FoodApp\\app\\src\\main\\res\\layout\\menu_list_row.xml"
+    }
+]

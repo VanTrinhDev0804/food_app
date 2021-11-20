@@ -17,6 +17,7 @@ class SuccessOrderActivity : AppCompatActivity() {
         actionbar?.setSubtitle(restaurantModel?.address)
         actionbar?.setDisplayHomeAsUpEnabled(false)
 
+
         buttonDone.setOnClickListener {
             setResult(RESULT_OK)
             finish()
