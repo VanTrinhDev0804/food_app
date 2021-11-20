@@ -16,7 +16,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:text="Order places successfully."
+        android:text="@string/dathangthanhcong"
         android:layout_margin="30dp"
         />
 
@@ -26,7 +26,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:text="Done"
+        android:text="@string/ketthuc"
         android:textSize="16sp"
         android:textStyle="bold"
         android:gravity="center"

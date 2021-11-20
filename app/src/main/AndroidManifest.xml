@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.demo.foodorderanddeliveryappkotlin">
+    package="com.trytest.foodorder">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,16 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodOrderAndDeliveryAppKotlin">
         <activity
-            android:name=".SuccessOrderActivity"
+            android:name="com.trytest.foodorder.SuccessOrderActivity"
             android:exported="true" />
         <activity
-            android:name=".PlaceYourOrderActivity"
+            android:name="com.trytest.foodorder.PlaceYourOrderActivity"
             android:exported="true" />
         <activity
-            android:name=".RestaurantMenuActivity"
+            android:name="com.trytest.foodorder.RestaurantMenuActivity"
             android:exported="true" />
         <activity
-            android:name=".SplashActivity"
+            android:name="com.trytest.foodorder.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,7 +30,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.trytest.foodorder.MainActivity"
             android:exported="true" />
     </application>
 

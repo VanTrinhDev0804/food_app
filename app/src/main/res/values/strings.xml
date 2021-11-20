@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">FoodOrderAndDeliveryAppKotlin</string>
+    <string name="thanhtoan">Thanh toán</string>
+    <string name="nhantaicho">Nhận tại chỗ</string>
+    <string name="giaohang">Giao hàng</string>
+    <string name="nhapten">Nhập tên của bạn</string>
+    <string name="dsmonan">Danh sách các mon ăn đã đặt</string>
+    <string name="pincard">Nhập pin của Card</string>
+    <string name="cardhethan">Nhập ngày card hết hạn(mm/yyyy)</string>
+    <string name="socard">Nhập sô Card</string>
+    <string name="thongtinthe">Thông tin thẻ</string>
+    <string name="diachi">Nhập địa chỉ</string>
+    <string name="thanhpho">Nhập thành phố</string>
+    <string name="quocgia">Nhập quốc gia</string>
+    <string name="zipcode">Nhập zipcode</string>
+    <string name="tongtien">Tổng giá tiền</string>
+    <string name="giagiaohang">Giá giao hàng</string>
+    <string name="tong">Tổng</string>
+    <string name="dathang">Đặt hàng</string>
+    <string name="tinhtien">Tính tiền</string>
+    <string name="dathangthanhcong">Đặt hàng thành công</string>
+    <string name="ketthuc">Kết thúc</string>
+    <string name="themgiohang">Thêm vào giỏ hàng</string>
 </resources>
