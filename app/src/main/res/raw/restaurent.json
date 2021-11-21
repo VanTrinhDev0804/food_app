@@ -1,69 +1,63 @@
 [
   {
-    "name":"Chicago's Pizza",
-    "address":"7225 W Harlem Ave.",
-    "delivery_charge": 5,
-    "image":"https://www.bulldogtribune.com/wp-content/uploads/2018/05/chicagos20logo_color202_0001_62111459-900x651.jpg",
-
+    "name":"KFC",
+    "address":"Số 292 Bà Triệu, P. Lê Đại Hành, Q. Hai Bà Trưng, TP. Hà Nội.",
+    "delivery_charge": 7,
+    "image": "https://kfcvietnam.com.vn/templates/images/logo_pc.png",
     "hours":{
       "Sunday":"11:00 AM - 7:00 PM",
-      "Monday":"10:00 AM - 9:00 PM",
+      "Monday":"10:00 AM - 10:00 PM",
       "Tuesday":"10:00 AM - 10:00 PM",
-      "Wednesday":"10:00 AM - 11:00 PM",
+      "Wednesday":"10:00 AM - 8:00 PM",
       "Thursday":"10:00 AM - 10:00 PM",
-      "Friday":"10:00 AM - 11:00 PM",
-      "Saturday":"10:00 AM - 2:00 PM"
+      "Friday":"10:00 AM - 10:00 PM",
+      "Saturday":"10:00 AM - 3:00 PM"
     },
     "menus": [
       {
-        "name": "Spaghetti",
-        "price": 10.00,
-        "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/7/17/1/FN_Simple-Spaghetti-with-Tomato-Sauce_s4x3.jpg.rend.hgtvcom.826.620.suffix/1408069256188.jpeg"
+        "name": "Gà Rán (2 Miếng)",
+        "price": 2.91,
+        "url": "https://kfcvietnam.com.vn/uploads/combo/1eb5c19fa53a45152989923c626feebe.jpg"
       },
       {
-        "name": "Spaghettios Pizza",
-        "price": 13.99,
-        "url": "https://lh3.googleusercontent.com/p/AF1QipN-WboPX7pEgnNqg78wranzezsGMdPfwCoxQjdJ=s1280-p-no-v1"
+        "name": "Gà Quay (1 Miếng)",
+        "price": 2.91,
+        "url": "https://kfcvietnam.com.vn/uploads/combo/3708a6181f25a1a4e25ed6fe86e2f649.jpg"
       },
       {
-        "name": "Chocolate Pizza",
-        "price": 4.99,
-        "url": "https://149366112.v2.pressablecdn.com/wp-content/uploads/2017/08/blah.jpg"
+        "name": "Burger Gà Quay Flava (1 Phần)",
+        "price": 2.03,
+        "url": "https://kfcvietnam.com.vn/uploads/combo/c12072579cf5226b75cd90bf36d6ab90.jpg"
       },
       {
-        "name": "Cheese Sticks",
-        "price": 5.49,
-        "url": "https://www.spendwithpennies.com/wp-content/uploads/2013/10/Cheese-Sticks-SpendWithPennies-2-21-500x500.jpg"
+        "name": "Burger Zinger (1 Phần)",
+        "price": 2.21,
+        "url": "https://kfcvietnam.com.vn/uploads/combo/9cff128ec12ceed884d13a48b2aecc79.jpg"
       },
       {
-        "name": "CHICKEN FINGER SANDWICH",
-        "price": 4.00,
-        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70461/image?density=3&height=300&width=420"
+        "name": "Phô mai viên (6 viên)",
+        "price": 1.68,
+        "url": "https://kfcvietnam.com.vn/uploads/product/8d6a82cd5cad07813d853985275fbede.jpg"
       },
       {
-        "name": "FINGERZ BOXED LUNCH",
-        "price": 3.25,
-        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70463/image?density=3&height=300&width=420"
+        "name": "Gà Xiên Que (2 Thanh)",
+        "price": 1.32,
+        "url": "https://kfcvietnam.com.vn/uploads/product/4b5e669a366b2048e36dd5b1cc0d652d.jpg"
       },
       {
-        "name": "HOUSE ZALAD BOXED",
-        "price": 5.49,
-        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70465/image?density=3&height=300&width=420"
+        "name": "Khoai tây chiên (J) ",
+        "price": 1.59,
+        "url": "https://kfcvietnam.com.vn/uploads/product/b4431f0780fa184caf27f7902a890bad.jpg"
       },
       {
-        "name": "COBB ZALAD BOXED",
-        "price": 3.99,
-        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70468/image?density=3&height=300&width=420"
+        "name": "Bánh Trứng (1 cái)",
+        "price": 0.75,
+        "url": "https://kfcvietnam.com.vn/uploads/product/83d3d0737b42e9066328c815692a2ea8.jpg"
       },
       {
-        "name": "COOKIE AND BROWNIE ",
-        "price": 8.09,
-        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70543/image?density=3&height=300&width=420"
-      },
-      {
-        "name": "BROWNIE PLATTER",
-        "price": 6.49,
-        "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70540/image?density=3&height=300&width=420"
+        "name": "Bánh Trứng (4 cái)",
+        "price": 2.16,
+        "url": "https://kfcvietnam.com.vn/uploads/product/be95ff8508fa5aacb78baba4a6b644c1.jpg"
       }
     ]
   },
