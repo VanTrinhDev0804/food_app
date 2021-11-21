@@ -5,8 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,10 +34,16 @@ public final class ActivitySignInBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
+  public final LinearLayout linearLayout;
+
+  @NonNull
   public final EditText loginemail;
 
   @NonNull
   public final EditText loginpassword;
+
+  @NonNull
+  public final CheckBox rememberAc;
 
   @NonNull
   public final TextView textView;
@@ -44,14 +52,18 @@ public final class ActivitySignInBinding implements ViewBinding {
   public final TextView textView2;
 
   private ActivitySignInBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLogin,
-      @NonNull TextView btnRegister, @NonNull ImageView imageView, @NonNull EditText loginemail,
-      @NonNull EditText loginpassword, @NonNull TextView textView, @NonNull TextView textView2) {
+      @NonNull TextView btnRegister, @NonNull ImageView imageView,
+      @NonNull LinearLayout linearLayout, @NonNull EditText loginemail,
+      @NonNull EditText loginpassword, @NonNull CheckBox rememberAc, @NonNull TextView textView,
+      @NonNull TextView textView2) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.btnRegister = btnRegister;
     this.imageView = imageView;
+    this.linearLayout = linearLayout;
     this.loginemail = loginemail;
     this.loginpassword = loginpassword;
+    this.rememberAc = rememberAc;
     this.textView = textView;
     this.textView2 = textView2;
   }
@@ -101,6 +113,12 @@ public final class ActivitySignInBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.linearLayout;
+      LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout == null) {
+        break missingId;
+      }
+
       id = R.id.loginemail;
       EditText loginemail = ViewBindings.findChildViewById(rootView, id);
       if (loginemail == null) {
@@ -110,6 +128,12 @@ public final class ActivitySignInBinding implements ViewBinding {
       id = R.id.loginpassword;
       EditText loginpassword = ViewBindings.findChildViewById(rootView, id);
       if (loginpassword == null) {
+        break missingId;
+      }
+
+      id = R.id.rememberAc;
+      CheckBox rememberAc = ViewBindings.findChildViewById(rootView, id);
+      if (rememberAc == null) {
         break missingId;
       }
 
@@ -126,7 +150,7 @@ public final class ActivitySignInBinding implements ViewBinding {
       }
 
       return new ActivitySignInBinding((ConstraintLayout) rootView, btnLogin, btnRegister,
-          imageView, loginemail, loginpassword, textView, textView2);
+          imageView, linearLayout, loginemail, loginpassword, rememberAc, textView, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

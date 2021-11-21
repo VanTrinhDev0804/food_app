@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FoodOrderAndDeliveryAppKotlin</string>
+    <string name="app_name">FoodOrder</string>
     <string name="thanhtoan">Thanh toán</string>
     <string name="nhantaicho">Nhận tại chỗ</string>
     <string name="giaohang">Giao hàng</string>

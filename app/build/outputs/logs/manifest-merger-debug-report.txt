@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-49:12
+ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
 MERGED from [androidx.databinding:viewbinding:7.0.0] C:\Users\vantr\.gradle\caches\transforms-3\683ae76aaef989aad608776b3bf6be98\transformed\jetified-viewbinding-7.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\vantr\.gradle\caches\transforms-3\ed90ada5907e7232f420e14949741091\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\vantr\.gradle\caches\transforms-3\d7873cf437a2f3aee74685cedd1b8e50\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
@@ -60,20 +60,20 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vantr\.gradle\ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\e8c59e343c26286dcfc631f7d2ef0640\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\98dd3a889f44dc0dfda0f432b0d3ddfc\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\f1837f6ad1e0e91fa4adac165c2094a3\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
 	package
 		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
 		INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-49:12
+		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-49:12
+		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:11-69
@@ -84,7 +84,7 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\ca
 	android:name
 		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:7:5-47:19
+ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:7:5-50:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\vantr\.gradle\caches\transforms-3\d7873cf437a2f3aee74685cedd1b8e50\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\vantr\.gradle\caches\transforms-3\d7873cf437a2f3aee74685cedd1b8e50\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\vantr\.gradle\caches\transforms-3\13083aaaf1b905019c628f4575c18661\transformed\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
@@ -128,59 +128,65 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\va
 	android:allowBackup
 		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:13:9-67
-activity#com.trytest.foodorder.CreateAccountActivity
+		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:13:9-47
+activity#com.trytest.foodorder.Acount_Activity
 ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:14:9-16:40
 	android:exported
 		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:15:13-50
+		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:15:13-44
+activity#com.trytest.foodorder.CreateAccountActivity
+ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:17:9-19:40
+	android:exported
+		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:18:13-50
 activity#com.trytest.foodorder.SignInActivity
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:17:9-25:20
+ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:20:9-28:20
 	android:exported
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:19:13-36
+		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:18:13-43
+		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:21:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:26:27-74
 activity#com.trytest.foodorder.SuccessOrderActivity
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:26:9-28:39
-	android:exported
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:28:13-36
-	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:27:13-49
-activity#com.trytest.foodorder.PlaceYourOrderActivity
 ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:29:9-31:39
 	android:exported
 		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:30:13-51
-activity#com.trytest.foodorder.RestaurantMenuActivity
+		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:30:13-49
+activity#com.trytest.foodorder.PlaceYourOrderActivity
 ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:32:9-34:39
 	android:exported
 		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:34:13-36
 	android:name
 		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:33:13-51
-activity#com.trytest.foodorder.SplashActivity
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:35:9-43:20
+activity#com.trytest.foodorder.RestaurantMenuActivity
+ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:35:9-37:39
 	android:exported
 		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:36:13-43
-activity#com.trytest.foodorder.MainActivity
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:44:9-46:39
+		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:36:13-51
+activity#com.trytest.foodorder.SplashActivity
+ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:38:9-46:20
 	android:exported
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:46:13-36
+		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:40:13-36
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:45:13-41
+		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:39:13-43
+activity#com.trytest.foodorder.MainActivity
+ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:47:9-49:39
+	android:exported
+		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:49:13-36
+	android:name
+		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:48:13-41
 uses-sdk
 INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml

@@ -1,7 +1,15 @@
 [
     {
+        "merged": "D:\\New folder\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_acount.xml.flat",
+        "source": "D:\\New folder\\FoodApp\\app\\src\\main\\res\\layout\\activity_acount.xml"
+    },
+    {
         "merged": "D:\\New folder\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_splash.xml.flat",
         "source": "D:\\New folder\\FoodApp\\app\\src\\main\\res\\drawable\\ic_splash.xml"
+    },
+    {
+        "merged": "D:\\New folder\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\menu_item_menu.xml.flat",
+        "source": "D:\\New folder\\FoodApp\\app\\src\\main\\res\\menu\\item_menu.xml"
     },
     {
         "merged": "D:\\New folder\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_place_your_order.xml.flat",

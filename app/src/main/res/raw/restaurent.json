@@ -63,10 +63,9 @@
   },
   {
     "name":"Pizza Inn",
-    "address":"77A Huỳnh Mẫn Đạt, phường 7, Quận 5, Thành phố Hồ Chí Minh
-",
-    "delivery_charge": free,
-    "image":"https://drive.google.com/file/d/1ZdRNCYZQDvpUmDQ3r23cR7F5H68zwkwd/view?usp=sharing",
+    "address":"77A Huỳnh Mẫn Đạt, phường 7, Quận 5, Thành phố Hồ Chí Minh",
+    "delivery_charge": 6,
+    "image":"http://www.pizzainnexpress.vn/assets/images/logo.png",
 
     "hours":{
       "Sunday":"09:00 AM - 22:00 PM",

@@ -32,6 +32,10 @@
         "source": "D:\\New folder\\FoodApp\\app\\src\\main\\res\\layout\\activity_success_order.xml"
     },
     {
+        "merged": "D:\\New folder\\FoodApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_acount.xml",
+        "source": "D:\\New folder\\FoodApp\\app\\src\\main\\res\\layout\\activity_acount.xml"
+    },
+    {
         "merged": "D:\\New folder\\FoodApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_place_your_order.xml",
         "source": "D:\\New folder\\FoodApp\\app\\src\\main\\res\\layout\\activity_place_your_order.xml"
     },

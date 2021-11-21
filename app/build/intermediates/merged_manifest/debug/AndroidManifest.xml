@@ -21,7 +21,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.FoodOrderAndDeliveryAppKotlin" >
+        android:theme="@style/Theme.FoodOrder" >
+        <activity
+            android:name="com.trytest.foodorder.Acount_Activity"
+            android:exported="false" />
         <activity
             android:name="com.trytest.foodorder.CreateAccountActivity"
             android:exported="false" />
