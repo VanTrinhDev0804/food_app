@@ -62,75 +62,111 @@
     ]
   },
   {
-    "name":"Slim's Hotdogs",
-    "address":"469 W Huron St.",
-    "delivery_charge": 4,
-    "image":"https://i.ebayimg.com/images/g/LCUAAOSwgYlcvCtg/s-l1600.jpg",
+    "name":"Pizza Inn",
+    "address":"77A Huỳnh Mẫn Đạt, phường 7, Quận 5, Thành phố Hồ Chí Minh
+",
+    "delivery_charge": free,
+    "image":"https://drive.google.com/file/d/1ZdRNCYZQDvpUmDQ3r23cR7F5H68zwkwd/view?usp=sharing",
 
     "hours":{
-      "Sunday":"11:00 AM - 7:00 PM",
-      "Monday":"10:00 AM - 10:00 PM",
-      "Tuesday":"10:00 AM - 10:00 PM",
-      "Wednesday":"10:00 AM - 8:00 PM",
-      "Thursday":"10:00 AM - 10:00 PM",
-      "Friday":"10:00 AM - 10:00 PM",
-      "Saturday":"9:00 AM - 1:00 PM"
+      "Sunday":"09:00 AM - 22:00 PM",
+      "Monday":"09:00 AM - 22:00 PM",
+      "Tuesday":"09:00 AM - 22:00 PM",
+      "Wednesday":"09:00 AM - 22:00 PM",
+      "Thursday":"09:00 AM - 22:00 PM",
+      "Friday":"09:00 AM - 22:00 PM",
+      "Saturday":"09:00 AM - 22:00 PM"
     },
     "menus": [
       {
-        "name": "Hot Dog",
-        "price": 2.99,
-        "url": "https://awrestaurants.com/sites/default/files/hotdog_0.png"
+        "name": "Pizza Bò bít tết",
+        "price": 9.93,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/pizza-bo-bit-tet-1.jpg"
       },
       {
-        "name": "Cheese Dog",
-        "price": 3.59,
-        "url": "https://www.cookingpanda.com/wp-content/uploads/2020/07/7R26235-16x9-1-scaled.jpg"
+        "name": "Pizza Mùi ngò gai",
+        "price": 9.93,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/pizza-mui-ngo-gai-2.jpg"
       },
       {
-        "name": "Midway Monster",
-        "price": 5.44,
-        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF2KzBUdwZjGoJIWIqHGHDozwcr3_oGrkhYQ&usqp=CAU"
+        "name": "Pizza bò",
+        "price": 11.25,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/pizza-bo-6.jpg"
       },
       {
-        "name": "Fries",
-        "price": 2.00,
-        "url": "https://images.fineartamerica.com/images-medium-large-5/crinkle-cut-french-fries-full-frame-foodcollection.jpg"
+        "name": "Pizza kim Chi",
+        "price": 8.60,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/pizza-kim-chi-7.jpg"
       },
       {
-        "name": "Milkshake",
-        "price": 3.49,
-        "url": "https://files.heftycdn.com/wp-content/uploads/2020/06/7c19980b4ec07e741b2823ea45370467.png"
+        "name": "Pizza Tôm",
+        "price": 9.93,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/pizza-tom-8.jpg"
       },
       {
-        "name": "Chocolate Shake",
-        "price": 4.95,
-        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chocolate-McCafe-Shake-Medium.jpg?$Product_Desktop$"
+        "name": "Pizza Cá Ngừ",
+        "price": 8.38,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/pizza-ca-ngu-9.jpg"
       },
       {
-        "name": "Strawberry Shake",
-        "price": 3.59,
-        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Strawberry-McCafe-Shake-Medium.jpg?$Product_Desktop$"
+        "name": "Pizza Thập Cẩm",
+        "price": 8.60,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/pizza-thap-cam-10.jpg"
       },
       {
-        "name": "Filet-O-Fish",
-        "price": 5.49,
-        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Filet-O-Fish.png?$Product_Desktop$"
+        "name": "Pizza Khoai Tây",
+        "price": 8.38,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/pizza-khoai-tay-11.jpg"
       },
       {
-        "name": "McNuggets",
-        "price": 3.99,
-        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chicken-McNuggets-4pc.jpg?$Product_Desktop$"
+        "name": "Pizza Cay",
+        "price": 8.38,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/pizza-cay-12.jpg"
       },
       {
-        "name": "Combo Meal",
-        "price": 8.29,
-        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/meal/desktop/h-mcdonalds-Big-Mac-Extra-Value-Meals.jpg?$Product_Desktop$"
+        "name": "Pizza Hải Sản",
+        "price": 9.93,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/pizza-hai-san-15.jpg"
       },
       {
-        "name": "McMuffin Meal",
-        "price": 6.99,
-        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/meal/desktop/h-mcdonalds-Egg-McMuffin-Extra-Value-Meals.jpg?$Product_Desktop$"
+        "name": "Pizza Khoai Lang",
+        "price": 8.38,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/pizza-khoai-lang-16.jpg"
+      },
+      {
+        "name": "Mì Bò",
+        "price": 6.18,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/mi-bo-3.jpg"
+      },
+      {
+        "name": "Mì hải sản sốt đỏ/trắng",
+        "price": 7.06,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/mi-hai-san-sot-dotrang-20.jpg"
+      },
+      {
+        "name": "HQ Chicken (6 miếng)",
+        "price": 7.01,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/hq-chicken-51.jpg"
+      },
+      {
+        "name": "Pizza Hải Sản",
+        "price": 9.93,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/pizza-hai-san-15.jpg"
+      },
+      {
+        "name": "Cà phê đá",
+        "price": 1.10,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/ca-phe-da-41.jpg"
+      },
+      {
+        "name": "Trà Lipton",
+        "price": 1.10,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/tra-lipton-43.jpg"
+      },
+      {
+        "name": "Soda",
+        "price": 1.54,
+        "url": "http://www.pizzainnexpress.vn/res/product/thumbs/soda-36.jpg"
       }
     ]
   },
