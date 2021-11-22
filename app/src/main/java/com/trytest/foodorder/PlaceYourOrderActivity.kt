@@ -29,30 +29,6 @@ class PlaceYourOrderActivity : AppCompatActivity() {
         buttonPlaceYourOrder.setOnClickListener {
             onPlaceOrderButtonCLick(restaurantModel)
         }
-
-        switchDelivery?.setOnCheckedChangeListener { buttonView, isChecked ->
-
-            if(isChecked) {
-                inputAddress.visibility = View.VISIBLE
-                inputCity.visibility = View.VISIBLE
-                inputState.visibility = View.VISIBLE
-                inputZip.visibility = View.VISIBLE
-                tvDeliveryCharge.visibility = View.VISIBLE
-                tvDeliveryChargeAmount.visibility = View.VISIBLE
-                isDeliveryOn = true
-                calculateTotalAmount(restaurantModel)
-            } else {
-                inputAddress.visibility = View.GONE
-                inputCity.visibility = View.GONE
-                inputState.visibility = View.GONE
-                inputZip.visibility = View.GONE
-                tvDeliveryCharge.visibility = View.GONE
-                tvDeliveryChargeAmount.visibility = View.GONE
-                isDeliveryOn = false
-                calculateTotalAmount(restaurantModel)
-            }
-        }
-
         initRecyclerView(restaurantModel)
         calculateTotalAmount(restaurantModel)
     }
@@ -69,13 +45,13 @@ class PlaceYourOrderActivity : AppCompatActivity() {
             subTotalAmount += menu?.price!!  * menu?.totalInCart!!
 
         }
-        tvSubtotalAmount.text = "$"+ String.format("%.2f", subTotalAmount)
+        tvSubtotalAmount.text =  String.format("%.2f", subTotalAmount) +"vnđ"
         if(isDeliveryOn) {
-            tvDeliveryChargeAmount.text = "$"+String.format("%.2f", restaurantModel.delivery_charge?.toFloat())
+            tvDeliveryChargeAmount.text = String.format("%.2f", restaurantModel.delivery_charge?.toFloat())+"vnđ"
             subTotalAmount += restaurantModel?.delivery_charge?.toFloat()!!
         }
 
-        tvTotalAmount.text = "$"+ String.format("%.2f", subTotalAmount)
+        tvTotalAmount.text = String.format("%.2f", subTotalAmount) + "vnđ"
     }
 
     private fun onPlaceOrderButtonCLick(restaurantModel: RestaurentModel?) {
@@ -85,23 +61,13 @@ class PlaceYourOrderActivity : AppCompatActivity() {
         } else if(isDeliveryOn && TextUtils.isEmpty(inputAddress.text.toString())) {
             inputAddress.error =  "Nhập địa chỉ của bạn"
             return
-        } else if(isDeliveryOn && TextUtils.isEmpty(inputCity.text.toString())) {
-            inputCity.error =  "Nhập thành phố bạn ở"
-            return
-        } else if(isDeliveryOn && TextUtils.isEmpty(inputZip.text.toString())) {
-            inputZip.error =  "Nhập zipcode"
-            return
-        } else if( TextUtils.isEmpty(inputCardNumber.text.toString())) {
-            inputCardNumber.error =  "Nhập số credit card của bạn"
-            return
-        } else if( TextUtils.isEmpty(inputCardExpiry.text.toString())) {
-            inputCardExpiry.error =  "Nhập ngày hết hạn credit card"
-            return
-        } else if( TextUtils.isEmpty(inputCardPin.text.toString())) {
-            inputCardPin.error =  "Nhập credit card pin/cvv"
+        } else if(isDeliveryOn && TextUtils.isEmpty(inputPhone.text.toString())) {
+            inputPhone.error =  "Nhập thành số điện thoại"
             return
         }
         val intent = Intent(this@PlaceYourOrderActivity, SuccessOrderActivity::class.java)
+        /// đẩy đơn hàng lên realtime database !!!
+
         intent.putExtra("RestaurantModel", restaurantModel)
         startActivityForResult(intent, 1000)
     }

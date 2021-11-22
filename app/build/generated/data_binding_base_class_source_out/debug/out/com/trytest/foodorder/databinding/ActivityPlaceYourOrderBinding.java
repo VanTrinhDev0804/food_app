@@ -9,7 +9,6 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.SwitchCompat;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -32,46 +31,19 @@ public final class ActivityPlaceYourOrderBinding implements ViewBinding {
   public final EditText inputAddress;
 
   @NonNull
-  public final EditText inputCardExpiry;
-
-  @NonNull
-  public final EditText inputCardNumber;
-
-  @NonNull
-  public final EditText inputCardPin;
-
-  @NonNull
-  public final EditText inputCity;
-
-  @NonNull
   public final EditText inputName;
 
   @NonNull
-  public final EditText inputState;
-
-  @NonNull
-  public final EditText inputZip;
-
-  @NonNull
-  public final SwitchCompat switchDelivery;
-
-  @NonNull
-  public final TextView tvCardDetails;
+  public final EditText inputPhone;
 
   @NonNull
   public final TextView tvCustomerDetails;
-
-  @NonNull
-  public final TextView tvDelivery;
 
   @NonNull
   public final TextView tvDeliveryCharge;
 
   @NonNull
   public final TextView tvDeliveryChargeAmount;
-
-  @NonNull
-  public final TextView tvPickup;
 
   @NonNull
   public final TextView tvSubtotal;
@@ -90,33 +62,20 @@ public final class ActivityPlaceYourOrderBinding implements ViewBinding {
 
   private ActivityPlaceYourOrderBinding(@NonNull ScrollView rootView,
       @NonNull TextView buttonPlaceYourOrder, @NonNull RecyclerView cartItemsRecyclerView,
-      @NonNull EditText inputAddress, @NonNull EditText inputCardExpiry,
-      @NonNull EditText inputCardNumber, @NonNull EditText inputCardPin,
-      @NonNull EditText inputCity, @NonNull EditText inputName, @NonNull EditText inputState,
-      @NonNull EditText inputZip, @NonNull SwitchCompat switchDelivery,
-      @NonNull TextView tvCardDetails, @NonNull TextView tvCustomerDetails,
-      @NonNull TextView tvDelivery, @NonNull TextView tvDeliveryCharge,
-      @NonNull TextView tvDeliveryChargeAmount, @NonNull TextView tvPickup,
-      @NonNull TextView tvSubtotal, @NonNull TextView tvSubtotalAmount, @NonNull TextView tvTotal,
+      @NonNull EditText inputAddress, @NonNull EditText inputName, @NonNull EditText inputPhone,
+      @NonNull TextView tvCustomerDetails, @NonNull TextView tvDeliveryCharge,
+      @NonNull TextView tvDeliveryChargeAmount, @NonNull TextView tvSubtotal,
+      @NonNull TextView tvSubtotalAmount, @NonNull TextView tvTotal,
       @NonNull TextView tvTotalAmount, @NonNull TextView tvTotalItems) {
     this.rootView = rootView;
     this.buttonPlaceYourOrder = buttonPlaceYourOrder;
     this.cartItemsRecyclerView = cartItemsRecyclerView;
     this.inputAddress = inputAddress;
-    this.inputCardExpiry = inputCardExpiry;
-    this.inputCardNumber = inputCardNumber;
-    this.inputCardPin = inputCardPin;
-    this.inputCity = inputCity;
     this.inputName = inputName;
-    this.inputState = inputState;
-    this.inputZip = inputZip;
-    this.switchDelivery = switchDelivery;
-    this.tvCardDetails = tvCardDetails;
+    this.inputPhone = inputPhone;
     this.tvCustomerDetails = tvCustomerDetails;
-    this.tvDelivery = tvDelivery;
     this.tvDeliveryCharge = tvDeliveryCharge;
     this.tvDeliveryChargeAmount = tvDeliveryChargeAmount;
-    this.tvPickup = tvPickup;
     this.tvSubtotal = tvSubtotal;
     this.tvSubtotalAmount = tvSubtotalAmount;
     this.tvTotal = tvTotal;
@@ -169,69 +128,21 @@ public final class ActivityPlaceYourOrderBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.inputCardExpiry;
-      EditText inputCardExpiry = ViewBindings.findChildViewById(rootView, id);
-      if (inputCardExpiry == null) {
-        break missingId;
-      }
-
-      id = R.id.inputCardNumber;
-      EditText inputCardNumber = ViewBindings.findChildViewById(rootView, id);
-      if (inputCardNumber == null) {
-        break missingId;
-      }
-
-      id = R.id.inputCardPin;
-      EditText inputCardPin = ViewBindings.findChildViewById(rootView, id);
-      if (inputCardPin == null) {
-        break missingId;
-      }
-
-      id = R.id.inputCity;
-      EditText inputCity = ViewBindings.findChildViewById(rootView, id);
-      if (inputCity == null) {
-        break missingId;
-      }
-
       id = R.id.inputName;
       EditText inputName = ViewBindings.findChildViewById(rootView, id);
       if (inputName == null) {
         break missingId;
       }
 
-      id = R.id.inputState;
-      EditText inputState = ViewBindings.findChildViewById(rootView, id);
-      if (inputState == null) {
-        break missingId;
-      }
-
-      id = R.id.inputZip;
-      EditText inputZip = ViewBindings.findChildViewById(rootView, id);
-      if (inputZip == null) {
-        break missingId;
-      }
-
-      id = R.id.switchDelivery;
-      SwitchCompat switchDelivery = ViewBindings.findChildViewById(rootView, id);
-      if (switchDelivery == null) {
-        break missingId;
-      }
-
-      id = R.id.tvCardDetails;
-      TextView tvCardDetails = ViewBindings.findChildViewById(rootView, id);
-      if (tvCardDetails == null) {
+      id = R.id.inputPhone;
+      EditText inputPhone = ViewBindings.findChildViewById(rootView, id);
+      if (inputPhone == null) {
         break missingId;
       }
 
       id = R.id.tvCustomerDetails;
       TextView tvCustomerDetails = ViewBindings.findChildViewById(rootView, id);
       if (tvCustomerDetails == null) {
-        break missingId;
-      }
-
-      id = R.id.tvDelivery;
-      TextView tvDelivery = ViewBindings.findChildViewById(rootView, id);
-      if (tvDelivery == null) {
         break missingId;
       }
 
@@ -244,12 +155,6 @@ public final class ActivityPlaceYourOrderBinding implements ViewBinding {
       id = R.id.tvDeliveryChargeAmount;
       TextView tvDeliveryChargeAmount = ViewBindings.findChildViewById(rootView, id);
       if (tvDeliveryChargeAmount == null) {
-        break missingId;
-      }
-
-      id = R.id.tvPickup;
-      TextView tvPickup = ViewBindings.findChildViewById(rootView, id);
-      if (tvPickup == null) {
         break missingId;
       }
 
@@ -284,10 +189,9 @@ public final class ActivityPlaceYourOrderBinding implements ViewBinding {
       }
 
       return new ActivityPlaceYourOrderBinding((ScrollView) rootView, buttonPlaceYourOrder,
-          cartItemsRecyclerView, inputAddress, inputCardExpiry, inputCardNumber, inputCardPin,
-          inputCity, inputName, inputState, inputZip, switchDelivery, tvCardDetails,
-          tvCustomerDetails, tvDelivery, tvDeliveryCharge, tvDeliveryChargeAmount, tvPickup,
-          tvSubtotal, tvSubtotalAmount, tvTotal, tvTotalAmount, tvTotalItems);
+          cartItemsRecyclerView, inputAddress, inputName, inputPhone, tvCustomerDetails,
+          tvDeliveryCharge, tvDeliveryChargeAmount, tvSubtotal, tvSubtotalAmount, tvTotal,
+          tvTotalAmount, tvTotalItems);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

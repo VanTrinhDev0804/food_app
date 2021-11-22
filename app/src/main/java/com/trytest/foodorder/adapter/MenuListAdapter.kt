@@ -42,7 +42,7 @@ class MenuListAdapter(val menuList: List<Menus?>?, val clickListener: MenuListCl
 
         fun bind(menus: Menus) {
             menuName.text = menus?.name
-            menuPrice.text = "Giá tiền: $ ${menus?.price}"
+            menuPrice.text = "Giá tiền: ${menus?.price} vnđ"
             addToCartButton.setOnClickListener {
                 menus?.totalInCart = 1
                 clickListener.addToCartClickListener(menus)

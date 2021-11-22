@@ -10,7 +10,14 @@
         <entry key="..\:/New folder/FoodApp/app/src/main/res/layout/activity_acount.xml" value="0.23854166666666668" />
         <entry key="..\:/New folder/FoodApp/app/src/main/res/layout/activity_create_account.xml" value="0.25416666666666665" />
         <entry key="..\:/New folder/FoodApp/app/src/main/res/layout/activity_main.xml" value="0.22916666666666666" />
+        <entry key="..\:/New folder/FoodApp/app/src/main/res/layout/activity_place_your_order.xml" value="0.25416666666666665" />
+        <entry key="..\:/New folder/FoodApp/app/src/main/res/layout/activity_restaurant_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/New folder/FoodApp/app/src/main/res/layout/activity_sign_in.xml" value="0.264" />
+        <entry key="..\:/New folder/FoodApp/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/New folder/FoodApp/app/src/main/res/layout/activity_success_order.xml" value="0.25416666666666665" />
+        <entry key="..\:/New folder/FoodApp/app/src/main/res/layout/menu_list_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/New folder/FoodApp/app/src/main/res/layout/placeyourorder_list_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/New folder/FoodApp/app/src/main/res/layout/recycler_restautant_list_row.xml" value="0.25416666666666665" />
         <entry key="..\:/New folder/FoodApp/app/src/main/res/menu/item_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/New folder/FoodApp/app/src/main/res/menu/menu.xml" value="0.176" />
         <entry key="..\:/Users/Admin/Desktop/PTUD/FoodAppInKotlin/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26615384615384613" />

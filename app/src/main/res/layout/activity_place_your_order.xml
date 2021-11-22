@@ -19,49 +19,21 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_margin="10dp"
-            android:text="@string/thanhtoan"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
-
-        <TextView android:id="@+id/tvPickup"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintEnd_toStartOf="@+id/switchDelivery"
-            app:layout_constraintTop_toBottomOf="@+id/tvCustomerDetails"
-            android:text="@string/nhantaicho"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
-
-        <androidx.appcompat.widget.SwitchCompat android:id="@+id/switchDelivery"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvCustomerDetails"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="10dp"/>
-
-        <TextView android:id="@+id/tvDelivery"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toEndOf="@+id/switchDelivery"
-            app:layout_constraintTop_toBottomOf="@+id/tvCustomerDetails"
             android:text="@string/giaohang"
             android:textSize="18sp"
             android:textStyle="bold"/>
 
-        <EditText android:id="@+id/inputName"
+
+        <EditText
+            android:id="@+id/inputName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/switchDelivery"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:layout_marginTop="05dp"
-            android:layout_marginBottom="05dp"
-            android:hint="@string/nhapten"/>
+            android:hint="@string/nhapten"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvCustomerDetails" />
 
         <EditText android:id="@+id/inputAddress"
             android:layout_width="match_parent"
@@ -74,9 +46,9 @@
             android:layout_marginTop="05dp"
             android:layout_marginBottom="05dp"
             android:hint="@string/diachi"
-            android:visibility="gone"/>
+            />
 
-        <EditText android:id="@+id/inputCity"
+        <EditText android:id="@+id/inputPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
@@ -86,100 +58,20 @@
             android:layout_marginEnd="10dp"
             android:layout_marginTop="05dp"
             android:layout_marginBottom="05dp"
-            android:hint="@string/thanhpho"
-            android:visibility="gone"/>
+            android:hint="@string/sodienThoai" />
 
-        <EditText android:id="@+id/inputState"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/inputCity"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginTop="05dp"
-            android:layout_marginBottom="05dp"
-            android:hint="@string/quocgia"
-            android:visibility="gone"/>
 
-        <EditText android:id="@+id/inputZip"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/inputState"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginTop="05dp"
-            android:layout_marginBottom="05dp"
-            android:hint="@string/zipcode"
-            android:inputType="number"
-            android:maxLength="5"
-            android:visibility="gone"/>
-
-        <TextView android:id="@+id/tvCardDetails"
+        <TextView
+            android:id="@+id/tvTotalItems"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inputZip"
-            android:layout_margin="10dp"
-            android:text="@string/thongtinthe"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
-
-        <EditText android:id="@+id/inputCardNumber"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvCardDetails"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginTop="05dp"
-            android:layout_marginBottom="05dp"
-            android:hint="@string/socard"
-            android:inputType="number"
-            android:maxLength="16"/>
-
-        <EditText android:id="@+id/inputCardExpiry"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/inputCardNumber"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginTop="05dp"
-            android:layout_marginBottom="05dp"
-            android:hint="@string/cardhethan"
-            android:inputType="number"
-            android:maxLength="6"/>
-
-        <EditText android:id="@+id/inputCardPin"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/inputCardExpiry"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginTop="05dp"
-            android:layout_marginBottom="05dp"
-            android:hint="@string/pincard"
-            android:inputType="number"
-            android:maxLength="3"/>
-
-        <TextView android:id="@+id/tvTotalItems"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inputCardPin"
             android:layout_margin="10dp"
             android:text="@string/dsmonan"
             android:textSize="18sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputPhone" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/cartItemsRecyclerView"

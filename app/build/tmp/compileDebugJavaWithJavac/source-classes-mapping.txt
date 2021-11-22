@@ -1,5 +1,3 @@
-com/trytest/foodorder/BuildConfig.java
- com.trytest.foodorder.BuildConfig
 com/trytest/foodorder/databinding/ActivitySplashBinding.java
  com.trytest.foodorder.databinding.ActivitySplashBinding
 com/trytest/foodorder/databinding/MenuListRowBinding.java
@@ -18,6 +16,8 @@ com/trytest/foodorder/databinding/ActivityMainBinding.java
  com.trytest.foodorder.databinding.ActivityMainBinding
 com/trytest/foodorder/databinding/ActivityCreateAccountBinding.java
  com.trytest.foodorder.databinding.ActivityCreateAccountBinding
+com/trytest/foodorder/BuildConfig.java
+ com.trytest.foodorder.BuildConfig
 com/trytest/foodorder/databinding/PlaceyourorderListRowBinding.java
  com.trytest.foodorder.databinding.PlaceyourorderListRowBinding
 com/trytest/foodorder/databinding/ActivityPlaceYourOrderBinding.java
