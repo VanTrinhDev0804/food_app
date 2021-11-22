@@ -5,20 +5,28 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.MenuItem
-import android.view.View
 import androidx.appcompat.app.ActionBar
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
+import com.trytest.foodorder.DataClass.DataOrder
 import com.trytest.foodorder.adapter.PlaceYourOrderAdapter
+import com.trytest.foodorder.models.Menus
 import com.trytest.foodorder.models.RestaurentModel
 import kotlinx.android.synthetic.main.activity_place_your_order.*
+import java.util.*
 
 class PlaceYourOrderActivity : AppCompatActivity() {
 
     var placeYourOrderAdapter: PlaceYourOrderAdapter? = null
     var isDeliveryOn: Boolean = false
+
+    private lateinit var database : DatabaseReference
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_place_your_order)
+
 
         val restaurantModel: RestaurentModel? = intent.getParcelableExtra("RestaurantModel")
         val actionbar: ActionBar? = supportActionBar
@@ -29,6 +37,7 @@ class PlaceYourOrderActivity : AppCompatActivity() {
         buttonPlaceYourOrder.setOnClickListener {
             onPlaceOrderButtonCLick(restaurantModel)
         }
+
         initRecyclerView(restaurantModel)
         calculateTotalAmount(restaurantModel)
     }
@@ -37,6 +46,7 @@ class PlaceYourOrderActivity : AppCompatActivity() {
         cartItemsRecyclerView.layoutManager = LinearLayoutManager(this)
         placeYourOrderAdapter = PlaceYourOrderAdapter(restaurantModel?.menus)
         cartItemsRecyclerView.adapter =placeYourOrderAdapter
+
     }
 
     private fun calculateTotalAmount(restaurantModel: RestaurentModel?) {
@@ -65,11 +75,30 @@ class PlaceYourOrderActivity : AppCompatActivity() {
             inputPhone.error =  "Nhập thành số điện thoại"
             return
         }
+        var namecurrent:String =  inputName.text.toString()
+        var addresscurrent :String = inputAddress.text.toString()
+        var phonecurrent :String = inputPhone.text.toString()
+
         val intent = Intent(this@PlaceYourOrderActivity, SuccessOrderActivity::class.java)
         /// đẩy đơn hàng lên realtime database !!!
-
+        writeOrderOnDataBase(namecurrent, addresscurrent, phonecurrent, restaurantModel?.menus)
         intent.putExtra("RestaurantModel", restaurantModel)
         startActivityForResult(intent, 1000)
+    }
+
+    private fun writeOrderOnDataBase(
+        nameCurr:String,
+        addressCur: String,
+        phoneCur: String,
+        menus: List<Menus?>?
+    ) {
+        database = FirebaseDatabase.getInstance().reference
+        val order = DataOrder( addressCur, phoneCur , menus )
+        val restaurantModel: RestaurentModel? = intent.getParcelableExtra("RestaurantModel")
+
+        restaurantModel?.name?.let {
+            database.child("Order").child(it).push().child(nameCurr).setValue(order) }
+
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

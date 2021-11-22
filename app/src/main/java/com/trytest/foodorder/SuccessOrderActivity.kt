@@ -11,10 +11,9 @@ class SuccessOrderActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_success_order)
 
-        val restaurantModel: RestaurentModel? = intent.getParcelableExtra("RestaurantModel")
+//        val restaurantModel: RestaurentModel? = intent.getParcelableExtra("RestaurantModel")
         val actionbar: ActionBar? = supportActionBar
-        actionbar?.setTitle(restaurantModel?.name)
-        actionbar?.setSubtitle(restaurantModel?.address)
+        actionbar?.setTitle("Danh Sách Hóa Đơn")
         actionbar?.setDisplayHomeAsUpEnabled(false)
 
 
