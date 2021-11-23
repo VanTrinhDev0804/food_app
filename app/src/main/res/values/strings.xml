@@ -16,4 +16,9 @@
     <string name="dathangthanhcong">Đặt hàng thành công</string>
     <string name="ketthuc">Kết thúc</string>
     <string name="themgiohang">Thêm vào giỏ hàng</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
 </resources>

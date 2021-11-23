@@ -57,6 +57,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array google_colors
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -242,6 +243,10 @@ attr circularflow_defaultAngle
 attr circularflow_defaultRadius
 attr circularflow_radiusInDP
 attr circularflow_viewCenter
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr clearsTag
 attr clickAction
 attr clockFaceBackgroundColor
@@ -285,6 +290,7 @@ attr colorSecondary
 attr colorSecondaryVariant
 attr colorSurface
 attr colorSwitchThumbNormal
+attr colors
 attr commitIcon
 attr constraintRotate
 attr constraintSet
@@ -1025,6 +1031,7 @@ attr triggerId
 attr triggerReceiver
 attr triggerSlack
 attr ttcIndex
+attr type
 attr upDuration
 attr useCompatPadding
 attr useMaterialThemeColors
@@ -1096,6 +1103,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1170,6 +1178,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color light_white
@@ -1272,6 +1281,7 @@ color purple_200
 color purple_500
 color purple_700
 color radiobutton_themeable_attribute_color
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -1291,6 +1301,7 @@ color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color yellow
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1834,6 +1845,7 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_add_circle
+drawable ic_baseline_account_circle_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1990,6 +2002,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnBack
 id btnCreateAccount
 id btnLogin
 id btnRegister
@@ -2015,6 +2028,7 @@ id chip1
 id chip2
 id chip3
 id chip_group
+id chrome_floating_circles
 id chronometer
 id circle_center
 id clear_text
@@ -2079,7 +2093,10 @@ id enterAlways
 id enterAlwaysCollapsed
 id etConfirmPassword
 id etEmail
+id etFirstName
+id etLastName
 id etPassword
+id etPhone
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2092,6 +2109,7 @@ id fitToContents
 id fixed
 id flip
 id floating
+id folding_circles
 id forever
 id fragment_container_view_tag
 id frost
@@ -2099,6 +2117,8 @@ id ghost_view
 id ghost_view_holder
 id glide_custom_view_target_tag
 id gone
+id google_music_dices
+id google_progress
 id graph
 id graph_wrap
 id group_divider
@@ -2215,6 +2235,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id nexus_rotation_cross
 id noScroll
 id noState
 id none
@@ -2242,11 +2263,13 @@ id percent
 id pin
 id position
 id postLayout
+id profile_image
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerOrder
 id recyclerViewRestaurant
 id rememberAc
 id reverseSawtooth
@@ -2256,6 +2279,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id saveBtn
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2346,6 +2370,7 @@ id textTop
 id textView
 id textView2
 id textView3
+id textViewwait
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2376,6 +2401,9 @@ id tvCount
 id tvCustomerDetails
 id tvDeliveryCharge
 id tvDeliveryChargeAmount
+id tvFirstName
+id tvLastName
+id tvPhone
 id tvRestaurantAddress
 id tvRestaurantHours
 id tvRestaurantName
@@ -2413,6 +2441,7 @@ integer app_bar_elevation_anim_duration
 integer bottom_sheet_slide_duration
 integer cancel_button_image_alpha
 integer config_tooltipAnimTime
+integer default_type
 integer design_snackbar_text_max_lines
 integer design_tab_indicator_anim_duration_ms
 integer google_play_services_version
@@ -2501,6 +2530,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dialog_wait
+layout item_order
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2606,6 +2637,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
+string back
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string character_counter_content_description
@@ -2641,6 +2673,7 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string firebase_database_url
+string first_name
 string gcm_defaultSenderId
 string giagiaohang
 string giaohang
@@ -2652,6 +2685,7 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
 string ketthuc
+string last_name
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2714,8 +2748,10 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string phone
 string project_id
 string quocgia
+string save
 string search_menu_title
 string sodienThoai
 string status_bar_notification_info_overflow
@@ -3475,6 +3511,7 @@ styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCo
 styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carousel_firstView carousel_forwardTransition carousel_infinite carousel_nextState carousel_previousState carousel_touchUpMode carousel_touchUp_dampeningFactor carousel_touchUp_velocityThreshold
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize
@@ -3502,6 +3539,7 @@ styleable FontFamilyFont android_font android_fontWeight android_fontStyle andro
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable Fragment android_name android_id android_tag
 styleable FragmentContainerView android_name android_tag
+styleable GoogleProgressBar colors type
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable ImageFilterView altSrc blendSrc brightness contrast crossfade imagePanX imagePanY imageRotate imageZoom overlay round roundPercent saturation warmth

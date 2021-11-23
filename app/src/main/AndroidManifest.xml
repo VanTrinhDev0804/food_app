@@ -12,8 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodOrder">
         <activity
-            android:name=".Acount_Activity"
-            android:exported="false" />
+            android:name=".Acount_Activity"/>
+
         <activity
             android:name=".CreateAccountActivity"
             android:exported="false" />

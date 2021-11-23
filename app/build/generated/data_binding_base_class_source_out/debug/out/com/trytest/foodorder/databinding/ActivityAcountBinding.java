@@ -4,20 +4,65 @@ package com.trytest.foodorder.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.trytest.foodorder.R;
+import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityAcountBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private ActivityAcountBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final Button btnBack;
+
+  @NonNull
+  public final EditText etFirstName;
+
+  @NonNull
+  public final EditText etLastName;
+
+  @NonNull
+  public final EditText etPhone;
+
+  @NonNull
+  public final CircleImageView profileImage;
+
+  @NonNull
+  public final Button saveBtn;
+
+  @NonNull
+  public final TextView tvFirstName;
+
+  @NonNull
+  public final TextView tvLastName;
+
+  @NonNull
+  public final TextView tvPhone;
+
+  private ActivityAcountBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnBack,
+      @NonNull EditText etFirstName, @NonNull EditText etLastName, @NonNull EditText etPhone,
+      @NonNull CircleImageView profileImage, @NonNull Button saveBtn, @NonNull TextView tvFirstName,
+      @NonNull TextView tvLastName, @NonNull TextView tvPhone) {
     this.rootView = rootView;
+    this.btnBack = btnBack;
+    this.etFirstName = etFirstName;
+    this.etLastName = etLastName;
+    this.etPhone = etPhone;
+    this.profileImage = profileImage;
+    this.saveBtn = saveBtn;
+    this.tvFirstName = tvFirstName;
+    this.tvLastName = tvLastName;
+    this.tvPhone = tvPhone;
   }
 
   @Override
@@ -43,10 +88,68 @@ public final class ActivityAcountBinding implements ViewBinding {
 
   @NonNull
   public static ActivityAcountBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.btnBack;
+      Button btnBack = ViewBindings.findChildViewById(rootView, id);
+      if (btnBack == null) {
+        break missingId;
+      }
 
-    return new ActivityAcountBinding((ConstraintLayout) rootView);
+      id = R.id.etFirstName;
+      EditText etFirstName = ViewBindings.findChildViewById(rootView, id);
+      if (etFirstName == null) {
+        break missingId;
+      }
+
+      id = R.id.etLastName;
+      EditText etLastName = ViewBindings.findChildViewById(rootView, id);
+      if (etLastName == null) {
+        break missingId;
+      }
+
+      id = R.id.etPhone;
+      EditText etPhone = ViewBindings.findChildViewById(rootView, id);
+      if (etPhone == null) {
+        break missingId;
+      }
+
+      id = R.id.profile_image;
+      CircleImageView profileImage = ViewBindings.findChildViewById(rootView, id);
+      if (profileImage == null) {
+        break missingId;
+      }
+
+      id = R.id.saveBtn;
+      Button saveBtn = ViewBindings.findChildViewById(rootView, id);
+      if (saveBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.tvFirstName;
+      TextView tvFirstName = ViewBindings.findChildViewById(rootView, id);
+      if (tvFirstName == null) {
+        break missingId;
+      }
+
+      id = R.id.tvLastName;
+      TextView tvLastName = ViewBindings.findChildViewById(rootView, id);
+      if (tvLastName == null) {
+        break missingId;
+      }
+
+      id = R.id.tvPhone;
+      TextView tvPhone = ViewBindings.findChildViewById(rootView, id);
+      if (tvPhone == null) {
+        break missingId;
+      }
+
+      return new ActivityAcountBinding((ConstraintLayout) rootView, btnBack, etFirstName,
+          etLastName, etPhone, profileImage, saveBtn, tvFirstName, tvLastName, tvPhone);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
