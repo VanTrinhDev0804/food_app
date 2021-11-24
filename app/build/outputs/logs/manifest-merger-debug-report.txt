@@ -1,479 +1,504 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
-MERGED from [androidx.databinding:viewbinding:7.0.0] C:\Users\vantr\.gradle\caches\transforms-3\683ae76aaef989aad608776b3bf6be98\transformed\jetified-viewbinding-7.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\vantr\.gradle\caches\transforms-3\ed90ada5907e7232f420e14949741091\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\vantr\.gradle\caches\transforms-3\d7873cf437a2f3aee74685cedd1b8e50\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\vantr\.gradle\caches\transforms-3\13083aaaf1b905019c628f4575c18661\transformed\constraintlayout-2.1.1\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\vantr\.gradle\caches\transforms-3\b6b8cd682c9730aea5e028ac1949fad3\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:2:1-21:12
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vantr\.gradle\caches\transforms-3\02bf3fa9bfa4ca51d32443091b1d8a58\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\df45d594762c962798470e7118087e19\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
-MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:15:1-38:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\vantr\.gradle\caches\transforms-3\6cc60c7662a11a3e23f4256bd0e7427b\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\vantr\.gradle\caches\transforms-3\dab8ba14011bd24b338ada550333883f\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\vantr\.gradle\caches\transforms-3\7fb4a63015d95fcd4be2693e0e322fcf\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:15:1-26:12
-MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\vantr\.gradle\caches\transforms-3\7ddb27e34845e77f72f209fd8ebc461b\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:2:1-21:12
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\e4546842fda7626453f4f8b057996baa\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vantr\.gradle\caches\transforms-3\98db505ae70eae66baafc52d788bfa86\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\vantr\.gradle\caches\transforms-3\e6d9e3ff72a559310a3aaeaa09652cf0\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\vantr\.gradle\caches\transforms-3\701ef4142d583539a90bda2da0577220\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\vantr\.gradle\caches\transforms-3\4a9672cf242bb4c2c985717dbbbb2b8c\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.browser:browser:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\e1dd833dfe8dba3e7ab403c9920396ec\transformed\browser-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\4befe5ebc54f3d62788432517aa6b4a1\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\68425c334be98982b5f0778d125ab01c\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\ed54bf66e3b29013c0f34f253aaf3aff\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\632dbde5824390f4ba35dc15cc89144a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\vantr\.gradle\caches\transforms-3\88a2e94da874a0aaf4a0609023731f54\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\3856d70515b4120d7a8d55f841a1ea98\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\cf7470f1e03f797e47c869c5f0293df9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\b607264a541133ccc16fd27fcab9c3ed\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\804174f34e4c5c11e2ac992bc304f574\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\89bb1067d2446840f7743944cfd82138\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\445caf262e2362546c4b0d493d47b75c\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\ec4254e65d1cb7b1f0173097a970e8ca\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\aebe5b7d3dc7b9d954276a659b61df39\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\8a341d7d3516350cbe5486f1399836d9\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\ccda09e9fe9195d598ee6837b71be6fe\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.6.0] C:\Users\vantr\.gradle\caches\transforms-3\9a8fc1ddab0302bf929e2458f543bd30\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\70ddcd3921076cba876aeadb94423b60\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\vantr\.gradle\caches\transforms-3\65aefa084952d4e1a839b66528f2199d\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\c14cc9c7626050b784efaed5f8a29ba8\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\vantr\.gradle\caches\transforms-3\c0e32d6a616db2f066815639de2da72a\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\vantr\.gradle\caches\transforms-3\cc14267a9917b5c74273cda05caba616\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\b7be1c5ce5d1b6edd0de65d9fb8a48d2\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\vantr\.gradle\caches\transforms-3\6bb1113c46f91c144432c41187a1316a\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vantr\.gradle\caches\transforms-3\446ae71a5c3e79139f8fd186a6ee894e\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\vantr\.gradle\caches\transforms-3\dca82a3b43884eee7a22e35675d4097d\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vantr\.gradle\caches\transforms-3\327e4140359dd1505d0ba7574310ba38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\2750a2e99c96efc502ae2ee9ec0de61d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vantr\.gradle\caches\transforms-3\e5c833802f3f3b13ddba664dee861a0d\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\vantr\.gradle\caches\transforms-3\d9c7a720159f9fad08e60369b55be640\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\vantr\.gradle\caches\transforms-3\d51f2f73492300da6d6ef81c32793325\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\5832678b08621b6e6028702719d1b180\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\413d4e40f523dcbfdfbc99647468e787\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\e8c59e343c26286dcfc631f7d2ef0640\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\98dd3a889f44dc0dfda0f432b0d3ddfc\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\f1837f6ad1e0e91fa4adac165c2094a3\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from E:\food_app\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from E:\food_app\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from E:\food_app\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from E:\food_app\app\src\main\AndroidManifest.xml:2:1-52:12
+MERGED from [androidx.databinding:viewbinding:7.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\683ae76aaef989aad608776b3bf6be98\transformed\jetified-viewbinding-7.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ed90ada5907e7232f420e14949741091\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d7873cf437a2f3aee74685cedd1b8e50\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\13083aaaf1b905019c628f4575c18661\transformed\constraintlayout-2.1.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\b6b8cd682c9730aea5e028ac1949fad3\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\27f924fa07a0f7e27ad7cd68fd61b9f8\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\02bf3fa9bfa4ca51d32443091b1d8a58\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ac19585231d5486600990ba428e16244\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jpardogo.googleprogressbar:library:1.2.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\b64299f5baa5786f7fca49af7dc04dd3\transformed\jetified-library-1.2.0\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\df45d594762c962798470e7118087e19\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\6cc60c7662a11a3e23f4256bd0e7427b\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dab8ba14011bd24b338ada550333883f\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\7fb4a63015d95fcd4be2693e0e322fcf\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\7ddb27e34845e77f72f209fd8ebc461b\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e4546842fda7626453f4f8b057996baa\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\98db505ae70eae66baafc52d788bfa86\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e6d9e3ff72a559310a3aaeaa09652cf0\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\701ef4142d583539a90bda2da0577220\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\4a9672cf242bb4c2c985717dbbbb2b8c\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e1dd833dfe8dba3e7ab403c9920396ec\transformed\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\4befe5ebc54f3d62788432517aa6b4a1\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\68425c334be98982b5f0778d125ab01c\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ed54bf66e3b29013c0f34f253aaf3aff\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\632dbde5824390f4ba35dc15cc89144a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\88a2e94da874a0aaf4a0609023731f54\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\3856d70515b4120d7a8d55f841a1ea98\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\cf7470f1e03f797e47c869c5f0293df9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\b607264a541133ccc16fd27fcab9c3ed\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\804174f34e4c5c11e2ac992bc304f574\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\89bb1067d2446840f7743944cfd82138\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\445caf262e2362546c4b0d493d47b75c\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ec4254e65d1cb7b1f0173097a970e8ca\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\aebe5b7d3dc7b9d954276a659b61df39\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\8a341d7d3516350cbe5486f1399836d9\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ccda09e9fe9195d598ee6837b71be6fe\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\9a8fc1ddab0302bf929e2458f543bd30\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\70ddcd3921076cba876aeadb94423b60\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\65aefa084952d4e1a839b66528f2199d\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\c14cc9c7626050b784efaed5f8a29ba8\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\c0e32d6a616db2f066815639de2da72a\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\cc14267a9917b5c74273cda05caba616\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\b7be1c5ce5d1b6edd0de65d9fb8a48d2\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\6bb1113c46f91c144432c41187a1316a\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\446ae71a5c3e79139f8fd186a6ee894e\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dca82a3b43884eee7a22e35675d4097d\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\327e4140359dd1505d0ba7574310ba38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\2750a2e99c96efc502ae2ee9ec0de61d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e5c833802f3f3b13ddba664dee861a0d\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d9c7a720159f9fad08e60369b55be640\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d51f2f73492300da6d6ef81c32793325\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\5832678b08621b6e6028702719d1b180\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\413d4e40f523dcbfdfbc99647468e787\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e8c59e343c26286dcfc631f7d2ef0640\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\98dd3a889f44dc0dfda0f432b0d3ddfc\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f1837f6ad1e0e91fa4adac165c2094a3\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\food_app\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from E:\food_app\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from E:\food_app\app\src\main\AndroidManifest.xml:2:1-52:12
 	package
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:3:5-36
-		INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from E:\food_app\app\src\main\AndroidManifest.xml
+		INJECTED from E:\food_app\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
-		INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\food_app\app\src\main\AndroidManifest.xml
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:2:1-52:12
+		INJECTED from E:\food_app\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:1-52:12
-		INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\food_app\app\src\main\AndroidManifest.xml
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:2:1-52:12
+		INJECTED from E:\food_app\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:5:5-67
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:5-67
+ADDED from E:\food_app\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\27f924fa07a0f7e27ad7cd68fd61b9f8\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\27f924fa07a0f7e27ad7cd68fd61b9f8\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:7:5-50:19
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\vantr\.gradle\caches\transforms-3\d7873cf437a2f3aee74685cedd1b8e50\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\vantr\.gradle\caches\transforms-3\d7873cf437a2f3aee74685cedd1b8e50\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\vantr\.gradle\caches\transforms-3\13083aaaf1b905019c628f4575c18661\transformed\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\vantr\.gradle\caches\transforms-3\13083aaaf1b905019c628f4575c18661\transformed\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:7:5-15:19
-MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:7:5-15:19
-MERGED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:11:5-19:19
-MERGED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:11:5-19:19
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vantr\.gradle\caches\transforms-3\02bf3fa9bfa4ca51d32443091b1d8a58\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vantr\.gradle\caches\transforms-3\02bf3fa9bfa4ca51d32443091b1d8a58\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
-MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\vantr\.gradle\caches\transforms-3\dab8ba14011bd24b338ada550333883f\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\vantr\.gradle\caches\transforms-3\dab8ba14011bd24b338ada550333883f\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\vantr\.gradle\caches\transforms-3\7fb4a63015d95fcd4be2693e0e322fcf\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:24:5-20
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\vantr\.gradle\caches\transforms-3\7fb4a63015d95fcd4be2693e0e322fcf\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\e4546842fda7626453f4f8b057996baa\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\e4546842fda7626453f4f8b057996baa\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
-MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vantr\.gradle\caches\transforms-3\98db505ae70eae66baafc52d788bfa86\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vantr\.gradle\caches\transforms-3\98db505ae70eae66baafc52d788bfa86\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.6.0] C:\Users\vantr\.gradle\caches\transforms-3\9a8fc1ddab0302bf929e2458f543bd30\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.6.0] C:\Users\vantr\.gradle\caches\transforms-3\9a8fc1ddab0302bf929e2458f543bd30\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vantr\.gradle\caches\transforms-3\446ae71a5c3e79139f8fd186a6ee894e\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vantr\.gradle\caches\transforms-3\446ae71a5c3e79139f8fd186a6ee894e\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vantr\.gradle\caches\transforms-3\327e4140359dd1505d0ba7574310ba38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vantr\.gradle\caches\transforms-3\327e4140359dd1505d0ba7574310ba38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+ADDED from E:\food_app\app\src\main\AndroidManifest.xml:7:5-50:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d7873cf437a2f3aee74685cedd1b8e50\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d7873cf437a2f3aee74685cedd1b8e50\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\13083aaaf1b905019c628f4575c18661\transformed\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\13083aaaf1b905019c628f4575c18661\transformed\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\27f924fa07a0f7e27ad7cd68fd61b9f8\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\27f924fa07a0f7e27ad7cd68fd61b9f8\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\02bf3fa9bfa4ca51d32443091b1d8a58\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\02bf3fa9bfa4ca51d32443091b1d8a58\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ac19585231d5486600990ba428e16244\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ac19585231d5486600990ba428e16244\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.jpardogo.googleprogressbar:library:1.2.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\b64299f5baa5786f7fca49af7dc04dd3\transformed\jetified-library-1.2.0\AndroidManifest.xml:12:5-20
+MERGED from [com.jpardogo.googleprogressbar:library:1.2.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\b64299f5baa5786f7fca49af7dc04dd3\transformed\jetified-library-1.2.0\AndroidManifest.xml:12:5-20
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dab8ba14011bd24b338ada550333883f\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dab8ba14011bd24b338ada550333883f\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\7fb4a63015d95fcd4be2693e0e322fcf\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\7fb4a63015d95fcd4be2693e0e322fcf\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e4546842fda7626453f4f8b057996baa\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e4546842fda7626453f4f8b057996baa\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\98db505ae70eae66baafc52d788bfa86\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\98db505ae70eae66baafc52d788bfa86\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\9a8fc1ddab0302bf929e2458f543bd30\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\9a8fc1ddab0302bf929e2458f543bd30\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\446ae71a5c3e79139f8fd186a6ee894e\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\446ae71a5c3e79139f8fd186a6ee894e\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\327e4140359dd1505d0ba7574310ba38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\327e4140359dd1505d0ba7574310ba38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.6.0] C:\Users\vantr\.gradle\caches\transforms-3\9a8fc1ddab0302bf929e2458f543bd30\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.6.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\9a8fc1ddab0302bf929e2458f543bd30\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:13:9-47
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:13:9-47
 activity#com.trytest.foodorder.Acount_Activity
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:14:9-16:40
-	android:exported
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:16:13-37
+ADDED from E:\food_app\app\src\main\AndroidManifest.xml:14:9-15:46
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:15:13-44
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:15:13-44
 activity#com.trytest.foodorder.CreateAccountActivity
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:17:9-19:40
+ADDED from E:\food_app\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:19:13-37
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:18:13-50
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:18:13-50
 activity#com.trytest.foodorder.SignInActivity
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:20:9-28:20
+ADDED from E:\food_app\app\src\main\AndroidManifest.xml:20:9-28:20
 	android:exported
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:22:13-36
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:21:13-43
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:21:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from E:\food_app\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from E:\food_app\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from E:\food_app\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:26:27-74
 activity#com.trytest.foodorder.SuccessOrderActivity
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:29:9-31:39
+ADDED from E:\food_app\app\src\main\AndroidManifest.xml:29:9-31:39
 	android:exported
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:31:13-36
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:30:13-49
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:30:13-49
 activity#com.trytest.foodorder.PlaceYourOrderActivity
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:32:9-34:39
+ADDED from E:\food_app\app\src\main\AndroidManifest.xml:32:9-34:39
 	android:exported
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:34:13-36
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:34:13-36
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:33:13-51
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:33:13-51
 activity#com.trytest.foodorder.RestaurantMenuActivity
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:35:9-37:39
+ADDED from E:\food_app\app\src\main\AndroidManifest.xml:35:9-37:39
 	android:exported
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:37:13-36
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:36:13-51
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:36:13-51
 activity#com.trytest.foodorder.SplashActivity
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:38:9-46:20
+ADDED from E:\food_app\app\src\main\AndroidManifest.xml:38:9-46:20
 	android:exported
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:40:13-36
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:40:13-36
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:39:13-43
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:39:13-43
 activity#com.trytest.foodorder.MainActivity
-ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:47:9-49:39
+ADDED from E:\food_app\app\src\main\AndroidManifest.xml:47:9-49:39
 	android:exported
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:49:13-36
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:49:13-36
 	android:name
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml:48:13-41
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml:48:13-41
 uses-sdk
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
-MERGED from [androidx.databinding:viewbinding:7.0.0] C:\Users\vantr\.gradle\caches\transforms-3\683ae76aaef989aad608776b3bf6be98\transformed\jetified-viewbinding-7.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.databinding:viewbinding:7.0.0] C:\Users\vantr\.gradle\caches\transforms-3\683ae76aaef989aad608776b3bf6be98\transformed\jetified-viewbinding-7.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\vantr\.gradle\caches\transforms-3\ed90ada5907e7232f420e14949741091\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\vantr\.gradle\caches\transforms-3\ed90ada5907e7232f420e14949741091\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\vantr\.gradle\caches\transforms-3\d7873cf437a2f3aee74685cedd1b8e50\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\vantr\.gradle\caches\transforms-3\d7873cf437a2f3aee74685cedd1b8e50\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\vantr\.gradle\caches\transforms-3\13083aaaf1b905019c628f4575c18661\transformed\constraintlayout-2.1.1\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\vantr\.gradle\caches\transforms-3\13083aaaf1b905019c628f4575c18661\transformed\constraintlayout-2.1.1\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\vantr\.gradle\caches\transforms-3\b6b8cd682c9730aea5e028ac1949fad3\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\vantr\.gradle\caches\transforms-3\b6b8cd682c9730aea5e028ac1949fad3\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vantr\.gradle\caches\transforms-3\02bf3fa9bfa4ca51d32443091b1d8a58\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vantr\.gradle\caches\transforms-3\02bf3fa9bfa4ca51d32443091b1d8a58\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\df45d594762c962798470e7118087e19\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\df45d594762c962798470e7118087e19\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\vantr\.gradle\caches\transforms-3\6cc60c7662a11a3e23f4256bd0e7427b\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\vantr\.gradle\caches\transforms-3\6cc60c7662a11a3e23f4256bd0e7427b\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\vantr\.gradle\caches\transforms-3\dab8ba14011bd24b338ada550333883f\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\vantr\.gradle\caches\transforms-3\dab8ba14011bd24b338ada550333883f\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\vantr\.gradle\caches\transforms-3\7fb4a63015d95fcd4be2693e0e322fcf\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\vantr\.gradle\caches\transforms-3\7fb4a63015d95fcd4be2693e0e322fcf\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\vantr\.gradle\caches\transforms-3\7ddb27e34845e77f72f209fd8ebc461b\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\vantr\.gradle\caches\transforms-3\7ddb27e34845e77f72f209fd8ebc461b\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\e4546842fda7626453f4f8b057996baa\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\e4546842fda7626453f4f8b057996baa\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vantr\.gradle\caches\transforms-3\98db505ae70eae66baafc52d788bfa86\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vantr\.gradle\caches\transforms-3\98db505ae70eae66baafc52d788bfa86\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\vantr\.gradle\caches\transforms-3\e6d9e3ff72a559310a3aaeaa09652cf0\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\vantr\.gradle\caches\transforms-3\e6d9e3ff72a559310a3aaeaa09652cf0\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\vantr\.gradle\caches\transforms-3\701ef4142d583539a90bda2da0577220\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\vantr\.gradle\caches\transforms-3\701ef4142d583539a90bda2da0577220\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\vantr\.gradle\caches\transforms-3\4a9672cf242bb4c2c985717dbbbb2b8c\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\vantr\.gradle\caches\transforms-3\4a9672cf242bb4c2c985717dbbbb2b8c\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\e1dd833dfe8dba3e7ab403c9920396ec\transformed\browser-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.browser:browser:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\e1dd833dfe8dba3e7ab403c9920396ec\transformed\browser-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\4befe5ebc54f3d62788432517aa6b4a1\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\4befe5ebc54f3d62788432517aa6b4a1\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\68425c334be98982b5f0778d125ab01c\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\68425c334be98982b5f0778d125ab01c\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\ed54bf66e3b29013c0f34f253aaf3aff\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\ed54bf66e3b29013c0f34f253aaf3aff\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\632dbde5824390f4ba35dc15cc89144a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\632dbde5824390f4ba35dc15cc89144a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\vantr\.gradle\caches\transforms-3\88a2e94da874a0aaf4a0609023731f54\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\vantr\.gradle\caches\transforms-3\88a2e94da874a0aaf4a0609023731f54\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\3856d70515b4120d7a8d55f841a1ea98\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\3856d70515b4120d7a8d55f841a1ea98\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\cf7470f1e03f797e47c869c5f0293df9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\cf7470f1e03f797e47c869c5f0293df9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\b607264a541133ccc16fd27fcab9c3ed\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\b607264a541133ccc16fd27fcab9c3ed\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\804174f34e4c5c11e2ac992bc304f574\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\804174f34e4c5c11e2ac992bc304f574\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\89bb1067d2446840f7743944cfd82138\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\89bb1067d2446840f7743944cfd82138\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\445caf262e2362546c4b0d493d47b75c\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\445caf262e2362546c4b0d493d47b75c\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\ec4254e65d1cb7b1f0173097a970e8ca\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\ec4254e65d1cb7b1f0173097a970e8ca\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\aebe5b7d3dc7b9d954276a659b61df39\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\aebe5b7d3dc7b9d954276a659b61df39\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\8a341d7d3516350cbe5486f1399836d9\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\8a341d7d3516350cbe5486f1399836d9\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\ccda09e9fe9195d598ee6837b71be6fe\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\ccda09e9fe9195d598ee6837b71be6fe\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.6.0] C:\Users\vantr\.gradle\caches\transforms-3\9a8fc1ddab0302bf929e2458f543bd30\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.6.0] C:\Users\vantr\.gradle\caches\transforms-3\9a8fc1ddab0302bf929e2458f543bd30\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\70ddcd3921076cba876aeadb94423b60\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\70ddcd3921076cba876aeadb94423b60\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\vantr\.gradle\caches\transforms-3\65aefa084952d4e1a839b66528f2199d\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\vantr\.gradle\caches\transforms-3\65aefa084952d4e1a839b66528f2199d\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\c14cc9c7626050b784efaed5f8a29ba8\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\c14cc9c7626050b784efaed5f8a29ba8\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\vantr\.gradle\caches\transforms-3\c0e32d6a616db2f066815639de2da72a\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\vantr\.gradle\caches\transforms-3\c0e32d6a616db2f066815639de2da72a\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\vantr\.gradle\caches\transforms-3\cc14267a9917b5c74273cda05caba616\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\vantr\.gradle\caches\transforms-3\cc14267a9917b5c74273cda05caba616\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\b7be1c5ce5d1b6edd0de65d9fb8a48d2\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\b7be1c5ce5d1b6edd0de65d9fb8a48d2\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\vantr\.gradle\caches\transforms-3\6bb1113c46f91c144432c41187a1316a\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\vantr\.gradle\caches\transforms-3\6bb1113c46f91c144432c41187a1316a\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vantr\.gradle\caches\transforms-3\446ae71a5c3e79139f8fd186a6ee894e\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vantr\.gradle\caches\transforms-3\446ae71a5c3e79139f8fd186a6ee894e\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\vantr\.gradle\caches\transforms-3\dca82a3b43884eee7a22e35675d4097d\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\vantr\.gradle\caches\transforms-3\dca82a3b43884eee7a22e35675d4097d\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vantr\.gradle\caches\transforms-3\327e4140359dd1505d0ba7574310ba38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vantr\.gradle\caches\transforms-3\327e4140359dd1505d0ba7574310ba38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\2750a2e99c96efc502ae2ee9ec0de61d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\2750a2e99c96efc502ae2ee9ec0de61d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vantr\.gradle\caches\transforms-3\e5c833802f3f3b13ddba664dee861a0d\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vantr\.gradle\caches\transforms-3\e5c833802f3f3b13ddba664dee861a0d\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\vantr\.gradle\caches\transforms-3\d9c7a720159f9fad08e60369b55be640\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\vantr\.gradle\caches\transforms-3\d9c7a720159f9fad08e60369b55be640\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\vantr\.gradle\caches\transforms-3\d51f2f73492300da6d6ef81c32793325\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\vantr\.gradle\caches\transforms-3\d51f2f73492300da6d6ef81c32793325\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\5832678b08621b6e6028702719d1b180\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\5832678b08621b6e6028702719d1b180\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\413d4e40f523dcbfdfbc99647468e787\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\413d4e40f523dcbfdfbc99647468e787\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\e8c59e343c26286dcfc631f7d2ef0640\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\e8c59e343c26286dcfc631f7d2ef0640\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\98dd3a889f44dc0dfda0f432b0d3ddfc\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\vantr\.gradle\caches\transforms-3\98dd3a889f44dc0dfda0f432b0d3ddfc\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\f1837f6ad1e0e91fa4adac165c2094a3\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\vantr\.gradle\caches\transforms-3\f1837f6ad1e0e91fa4adac165c2094a3\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
-INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
+INJECTED from E:\food_app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\food_app\app\src\main\AndroidManifest.xml
+INJECTED from E:\food_app\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\683ae76aaef989aad608776b3bf6be98\transformed\jetified-viewbinding-7.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\683ae76aaef989aad608776b3bf6be98\transformed\jetified-viewbinding-7.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ed90ada5907e7232f420e14949741091\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ed90ada5907e7232f420e14949741091\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d7873cf437a2f3aee74685cedd1b8e50\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d7873cf437a2f3aee74685cedd1b8e50\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\13083aaaf1b905019c628f4575c18661\transformed\constraintlayout-2.1.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\13083aaaf1b905019c628f4575c18661\transformed\constraintlayout-2.1.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\b6b8cd682c9730aea5e028ac1949fad3\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\b6b8cd682c9730aea5e028ac1949fad3\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\27f924fa07a0f7e27ad7cd68fd61b9f8\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\27f924fa07a0f7e27ad7cd68fd61b9f8\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\02bf3fa9bfa4ca51d32443091b1d8a58\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\02bf3fa9bfa4ca51d32443091b1d8a58\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ac19585231d5486600990ba428e16244\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ac19585231d5486600990ba428e16244\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jpardogo.googleprogressbar:library:1.2.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\b64299f5baa5786f7fca49af7dc04dd3\transformed\jetified-library-1.2.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.jpardogo.googleprogressbar:library:1.2.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\b64299f5baa5786f7fca49af7dc04dd3\transformed\jetified-library-1.2.0\AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\df45d594762c962798470e7118087e19\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\df45d594762c962798470e7118087e19\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\6cc60c7662a11a3e23f4256bd0e7427b\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\6cc60c7662a11a3e23f4256bd0e7427b\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dab8ba14011bd24b338ada550333883f\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dab8ba14011bd24b338ada550333883f\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\7fb4a63015d95fcd4be2693e0e322fcf\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\7fb4a63015d95fcd4be2693e0e322fcf\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\7ddb27e34845e77f72f209fd8ebc461b\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\7ddb27e34845e77f72f209fd8ebc461b\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e4546842fda7626453f4f8b057996baa\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e4546842fda7626453f4f8b057996baa\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\98db505ae70eae66baafc52d788bfa86\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\98db505ae70eae66baafc52d788bfa86\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e6d9e3ff72a559310a3aaeaa09652cf0\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e6d9e3ff72a559310a3aaeaa09652cf0\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\701ef4142d583539a90bda2da0577220\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\701ef4142d583539a90bda2da0577220\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\4a9672cf242bb4c2c985717dbbbb2b8c\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\4a9672cf242bb4c2c985717dbbbb2b8c\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e1dd833dfe8dba3e7ab403c9920396ec\transformed\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e1dd833dfe8dba3e7ab403c9920396ec\transformed\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\4befe5ebc54f3d62788432517aa6b4a1\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\4befe5ebc54f3d62788432517aa6b4a1\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\68425c334be98982b5f0778d125ab01c\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\68425c334be98982b5f0778d125ab01c\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ed54bf66e3b29013c0f34f253aaf3aff\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ed54bf66e3b29013c0f34f253aaf3aff\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\632dbde5824390f4ba35dc15cc89144a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\632dbde5824390f4ba35dc15cc89144a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\88a2e94da874a0aaf4a0609023731f54\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\88a2e94da874a0aaf4a0609023731f54\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\3856d70515b4120d7a8d55f841a1ea98\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\3856d70515b4120d7a8d55f841a1ea98\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\cf7470f1e03f797e47c869c5f0293df9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\cf7470f1e03f797e47c869c5f0293df9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\b607264a541133ccc16fd27fcab9c3ed\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\b607264a541133ccc16fd27fcab9c3ed\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\804174f34e4c5c11e2ac992bc304f574\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\804174f34e4c5c11e2ac992bc304f574\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\89bb1067d2446840f7743944cfd82138\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\89bb1067d2446840f7743944cfd82138\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\445caf262e2362546c4b0d493d47b75c\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\445caf262e2362546c4b0d493d47b75c\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ec4254e65d1cb7b1f0173097a970e8ca\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ec4254e65d1cb7b1f0173097a970e8ca\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\aebe5b7d3dc7b9d954276a659b61df39\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\aebe5b7d3dc7b9d954276a659b61df39\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\8a341d7d3516350cbe5486f1399836d9\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\8a341d7d3516350cbe5486f1399836d9\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ccda09e9fe9195d598ee6837b71be6fe\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\ccda09e9fe9195d598ee6837b71be6fe\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\9a8fc1ddab0302bf929e2458f543bd30\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\9a8fc1ddab0302bf929e2458f543bd30\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\70ddcd3921076cba876aeadb94423b60\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\70ddcd3921076cba876aeadb94423b60\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\65aefa084952d4e1a839b66528f2199d\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\65aefa084952d4e1a839b66528f2199d\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\c14cc9c7626050b784efaed5f8a29ba8\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\c14cc9c7626050b784efaed5f8a29ba8\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\c0e32d6a616db2f066815639de2da72a\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\c0e32d6a616db2f066815639de2da72a\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\cc14267a9917b5c74273cda05caba616\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\cc14267a9917b5c74273cda05caba616\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\b7be1c5ce5d1b6edd0de65d9fb8a48d2\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\b7be1c5ce5d1b6edd0de65d9fb8a48d2\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\6bb1113c46f91c144432c41187a1316a\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\6bb1113c46f91c144432c41187a1316a\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\446ae71a5c3e79139f8fd186a6ee894e\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\446ae71a5c3e79139f8fd186a6ee894e\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dca82a3b43884eee7a22e35675d4097d\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dca82a3b43884eee7a22e35675d4097d\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\327e4140359dd1505d0ba7574310ba38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\327e4140359dd1505d0ba7574310ba38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\2750a2e99c96efc502ae2ee9ec0de61d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\2750a2e99c96efc502ae2ee9ec0de61d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e5c833802f3f3b13ddba664dee861a0d\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e5c833802f3f3b13ddba664dee861a0d\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d9c7a720159f9fad08e60369b55be640\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d9c7a720159f9fad08e60369b55be640\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d51f2f73492300da6d6ef81c32793325\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d51f2f73492300da6d6ef81c32793325\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\5832678b08621b6e6028702719d1b180\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\5832678b08621b6e6028702719d1b180\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\413d4e40f523dcbfdfbc99647468e787\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\413d4e40f523dcbfdfbc99647468e787\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e8c59e343c26286dcfc631f7d2ef0640\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\e8c59e343c26286dcfc631f7d2ef0640\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\98dd3a889f44dc0dfda0f432b0d3ddfc\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\98dd3a889f44dc0dfda0f432b0d3ddfc\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f1837f6ad1e0e91fa4adac165c2094a3\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f1837f6ad1e0e91fa4adac165c2094a3\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\food_app\app\src\main\AndroidManifest.xml
+INJECTED from E:\food_app\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\food_app\app\src\main\AndroidManifest.xml
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml
+		INJECTED from E:\food_app\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\New folder\FoodApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\food_app\app\src\main\AndroidManifest.xml
+		ADDED from E:\food_app\app\src\main\AndroidManifest.xml
+		INJECTED from E:\food_app\app\src\main\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:8:9-14:19
-MERGED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:12:9-18:19
-MERGED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:12:9-18:19
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
-MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
-MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
-MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
-MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\27f924fa07a0f7e27ad7cd68fd61b9f8\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\27f924fa07a0f7e27ad7cd68fd61b9f8\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:10:13-37
+		ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:10:13-37
 	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:37:13-32
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:37:13-32
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:9:13-84
+		ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:9:13-84
 meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar
-ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:11:13-13:85
+ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:13:17-82
+		ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:12:17-116
+		ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\dcf7b186184274d2ed5b89ca7820c615\transformed\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:12:17-116
 meta-data#com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar
-ADDED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:15:13-17:85
+ADDED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:15:13-17:85
 	android:value
-		ADDED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:17:17-82
+		ADDED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:17:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:16:17-124
+		ADDED from [com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\3c014ac740a23ecd06e67f20a62105ec\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:16:17-124
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:5-79
-MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:5-79
+ADDED from [com.google.firebase:firebase-database:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\27f924fa07a0f7e27ad7cd68fd61b9f8\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\27f924fa07a0f7e27ad7cd68fd61b9f8\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
-activity#com.google.firebase.auth.internal.GenericIdpActivity
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
-action#android.intent.action.VIEW
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
-category#android.intent.category.DEFAULT
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-category#android.intent.category.BROWSABLE
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
-data
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-	android:path
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-	android:host
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-	android:scheme
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
-activity#com.google.firebase.auth.internal.RecaptchaActivity
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
-service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
-	android:enabled
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
-intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
-action#com.google.firebase.auth.api.gms.service.START
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
-meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
-	android:value
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\vantr\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+		ADDED from [com.google.firebase:firebase-database:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:22-76
 meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
-ADDED from [com.google.firebase:firebase-database:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-database:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-database:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-database:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-database:20.0.2] C:\Users\vantr\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+		ADDED from [com.google.firebase:firebase-database:20.0.2] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\825b96eebd77bae0c8d195b572b3a1c5\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\27f924fa07a0f7e27ad7cd68fd61b9f8\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\27f924fa07a0f7e27ad7cd68fd61b9f8\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\27f924fa07a0f7e27ad7cd68fd61b9f8\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
-ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:15:13-17:85
-	android:value
-		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:17:17-82
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
 	android:name
-		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:16:17-113
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
 	android:name
-		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\vantr\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\vantr\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f601d316d6261cebe6c45181a9f2b637\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\2b160087121ca5e0458cab63e84a6ff7\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\d6db97fafcbb88ac3938d37b5ef6ed77\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:16:17-113
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\f14a965ace790ec4abcadb50e0da9784\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\ThanhnghiaPC\.gradle\caches\transforms-3\290b2c15ab6ed8225ab18b9bdf3e5edb\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
