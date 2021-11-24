@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FoodApp.FoodOrderAndDeliveryAppKotlin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FoodApp.FoodOrderAndDeliveryAppKotlin.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FoodOrderAndDeliveryAppKotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/FoodOrderAndDeliveryAppKotlin.iml" />
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FoodOrderAndDeliveryAppKotlin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FoodOrderAndDeliveryAppKotlin.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/food_app.FoodOrderAndDeliveryAppKotlin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/food_app.FoodOrderAndDeliveryAppKotlin.app.iml" />
-=======
->>>>>>> 45654dec8f8efb4b24a9ba46cdf960a771b45542
     </modules>
   </component>
 </project>

@@ -24,7 +24,7 @@ class Acount_Activity : AppCompatActivity() {
     private lateinit var databaseReference: DatabaseReference
     private lateinit var storageReference: StorageReference
     private lateinit var imageUri: Uri
-    private lateinit var dialog: Dialog
+//    private lateinit var dialog: Dialog
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -51,9 +51,9 @@ class Acount_Activity : AppCompatActivity() {
                     val l_name = it.child("lastName").value
                     val p = it.child("phone").value
 
-                    etPhone.setText(f_name.toString())
-                    etFirstName.setText(l_name.toString())
-                    etLastName.setText(p.toString())
+                    etPhone.setText(p.toString())
+                    etFirstName.setText(f_name.toString())
+                    etLastName.setText(l_name.toString())
                 }
                 else{
                     Toast.makeText( this@Acount_Activity, "User doesn't exist", Toast.LENGTH_SHORT ).show()
@@ -70,7 +70,7 @@ class Acount_Activity : AppCompatActivity() {
         //
 
         saveBtn.setOnClickListener {
-            showProgressBar()
+//            showProgressBar()
             val firstName = etFirstName.text.toString()
             val lastName = etLastName.text.toString()
             val phone = etPhone.text.toString()
@@ -81,7 +81,7 @@ class Acount_Activity : AppCompatActivity() {
                     if (it.isSuccessful) {
                         uploadProfilePic()
                     } else {
-                        hideProgressBar()
+//                        hideProgressBar()
                         Toast.makeText( this@Acount_Activity, "Failed to update profile", Toast.LENGTH_SHORT ).show()
                     }
                 }
@@ -93,25 +93,25 @@ class Acount_Activity : AppCompatActivity() {
         imageUri = Uri.parse("android.resource://$packageName/${R.drawable.ic_baseline_account_circle_24}")
         storageReference = FirebaseStorage.getInstance().getReference("Users/" + auth.currentUser?.uid)
         storageReference.putFile(imageUri).addOnSuccessListener {
-            hideProgressBar()
-            Toast.makeText( this@Acount_Activity, "Profile successfuly update", Toast.LENGTH_SHORT ).show()
+//            hideProgressBar()
+            Toast.makeText( this@Acount_Activity, "Profile successfuly", Toast.LENGTH_SHORT ).show()
         }.addOnFailureListener{
-            hideProgressBar()
+//            hideProgressBar()
             Toast.makeText( this@Acount_Activity, "Failed to upload the image", Toast.LENGTH_SHORT ).show()
         }
     }
-
-        private fun showProgressBar(){
-        dialog = Dialog(this@Acount_Activity)
-        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
-        dialog.setContentView(R.layout.dialog_wait)
-        dialog.setCanceledOnTouchOutside(false)
-        dialog.show()
-
-    }
-    private fun hideProgressBar(){
-        dialog.dismiss();
-    }
+//
+//        private fun showProgressBar(){
+//        dialog = Dialog(this@Acount_Activity)
+//        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
+//        dialog.setContentView(R.layout.dialog_wait)
+//        dialog.setCanceledOnTouchOutside(false)
+//        dialog.show()
+//
+//    }
+//    private fun hideProgressBar(){
+//        dialog.dismiss();
+//    }
 }
 
 

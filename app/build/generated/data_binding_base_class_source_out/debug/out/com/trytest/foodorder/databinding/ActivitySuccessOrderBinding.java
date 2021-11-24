@@ -8,7 +8,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.trytest.foodorder.R;
@@ -23,14 +22,10 @@ public final class ActivitySuccessOrderBinding implements ViewBinding {
   @NonNull
   public final TextView buttonDone;
 
-  @NonNull
-  public final RecyclerView recyclerOrder;
-
   private ActivitySuccessOrderBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView buttonDone, @NonNull RecyclerView recyclerOrder) {
+      @NonNull TextView buttonDone) {
     this.rootView = rootView;
     this.buttonDone = buttonDone;
-    this.recyclerOrder = recyclerOrder;
   }
 
   @Override
@@ -66,14 +61,7 @@ public final class ActivitySuccessOrderBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.recyclerOrder;
-      RecyclerView recyclerOrder = ViewBindings.findChildViewById(rootView, id);
-      if (recyclerOrder == null) {
-        break missingId;
-      }
-
-      return new ActivitySuccessOrderBinding((ConstraintLayout) rootView, buttonDone,
-          recyclerOrder);
+      return new ActivitySuccessOrderBinding((ConstraintLayout) rootView, buttonDone);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

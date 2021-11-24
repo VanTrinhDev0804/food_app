@@ -2269,7 +2269,6 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id recyclerOrder
 id recyclerViewRestaurant
 id rememberAc
 id reverseSawtooth
@@ -2531,7 +2530,6 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialog_wait
-layout item_order
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
