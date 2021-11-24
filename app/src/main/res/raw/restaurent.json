@@ -268,5 +268,67 @@
         "url": "https://jollibee.com.vn/uploads/dish/d1834d87116836-2mingggin.png"
       }
     ]
+  },
+  {
+    "name":"KFC",
+    "address":"Số 292 Bà Triệu, P. Lê Đại Hành, Q. Hai Bà Trưng, TP. Hà Nội.",
+    "delivery_charge": 7,
+    "image": "https://kfcvietnam.com.vn/templates/images/logo_pc.png",
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 10:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 8:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 10:00 PM",
+      "Saturday":"10:00 AM - 3:00 PM"
+    },
+    "menus": [
+      {
+        "name": "Gà Rán (2 Miếng)",
+        "price": 2.91,
+        "url": "https://kfcvietnam.com.vn/uploads/combo/1eb5c19fa53a45152989923c626feebe.jpg"
+      },
+      {
+        "name": "Gà Quay (1 Miếng)",
+        "price": 2.91,
+        "url": "https://kfcvietnam.com.vn/uploads/combo/3708a6181f25a1a4e25ed6fe86e2f649.jpg"
+      },
+      {
+        "name": "Burger Gà Quay Flava (1 Phần)",
+        "price": 2.03,
+        "url": "https://kfcvietnam.com.vn/uploads/combo/c12072579cf5226b75cd90bf36d6ab90.jpg"
+      },
+      {
+        "name": "Burger Zinger (1 Phần)",
+        "price": 2.21,
+        "url": "https://kfcvietnam.com.vn/uploads/combo/9cff128ec12ceed884d13a48b2aecc79.jpg"
+      },
+      {
+        "name": "Phô mai viên (6 viên)",
+        "price": 1.68,
+        "url": "https://kfcvietnam.com.vn/uploads/product/8d6a82cd5cad07813d853985275fbede.jpg"
+      },
+      {
+        "name": "Gà Xiên Que (2 Thanh)",
+        "price": 1.32,
+        "url": "https://kfcvietnam.com.vn/uploads/product/4b5e669a366b2048e36dd5b1cc0d652d.jpg"
+      },
+      {
+        "name": "Khoai tây chiên (J) ",
+        "price": 1.59,
+        "url": "https://kfcvietnam.com.vn/uploads/product/b4431f0780fa184caf27f7902a890bad.jpg"
+      },
+      {
+        "name": "Bánh Trứng (1 cái)",
+        "price": 0.75,
+        "url": "https://kfcvietnam.com.vn/uploads/product/83d3d0737b42e9066328c815692a2ea8.jpg"
+      },
+      {
+        "name": "Bánh Trứng (4 cái)",
+        "price": 2.16,
+        "url": "https://kfcvietnam.com.vn/uploads/product/be95ff8508fa5aacb78baba4a6b644c1.jpg"
+      }
+    ]
   }
 ]
